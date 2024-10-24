@@ -1,0 +1,35 @@
+:root {
+    --primary-color: #302AE6;
+    --secondary-color: #64f;
+    --bg-color: #fff;
+    --heading-color: black;
+    --paragraph-color: #424242;
+    --hr-color: #292922;
+    --icon-filter: invert(0);
+    --icon-fill: hsl(210, 10%, 30%); /* Default icon fill for light mode */
+    --icon-fill-hover: hsl(210, 10%, 15%);
+    --link-color: #64f;
+    --link-color-hover:#2b0e92; 
+    --border-color: #dddddd;
+    --code-snippet-bg-color: #f3eefc;
+  }
+  
+  [data-theme="dark"] {
+    --primary-color: #9A97F3;
+    --secondary-color: rgb(227, 194, 255);
+    --font-color: #e1e1ff;
+    --bg-color: #1e1e1e; 
+    --heading-color: #e1e1ff;
+    --paragraph-color: #e1e1ff;
+    --hr-color: #e1e1ffd1;
+    --icon-filter: invert(1);
+    --icon-fill: hsl(210, 10%, 70%); /* Icon fill for dark mode */
+    --icon-fill-hover: hsl(210, 15%, 90%);
+    --link-color: #8ab4f8;
+    --link-color-hover:#4c8aef; 
+    --border-color: #444444;
+    --code-snippet-bg-color: #2d2d2d;
+  }
+  
+  
+  

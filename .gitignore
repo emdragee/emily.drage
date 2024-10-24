@@ -1,0 +1,7 @@
+# IDE / editor specific ignores
+.idea/
+.vscode/
+
+# Repo specific
+input/posts/export/
+input/portfolio/export/

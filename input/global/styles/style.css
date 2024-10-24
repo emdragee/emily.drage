@@ -1,0 +1,326 @@
+/* Importing base styles */
+@import url("/styles/base/reset.css");
+@import url("/styles/base/body.css");
+
+@custom-media --motionOK (prefers-reduced-motion: no-preference);
+@import "variables.css";
+@import "eye-svg.css";
+@import "social-sidebar.css";
+@import "content.css";
+
+* {
+
+    box-sizing: border-box;
+}
+
+html {
+    block-size: 100%;
+    color-scheme: light;
+    background-color: var(--bg-color);
+}
+
+[data-theme="dark"] {
+    color-scheme: dark;
+}
+
+@supports not (color-scheme: dark) {
+    [data-theme="dark"] {
+        background: #111;
+    }
+}
+
+
+@keyframes octocat-wave {
+
+    0%,
+    100% {
+        transform: rotate(0);
+    }
+
+    20%,
+    60% {
+        transform: rotate(-25deg);
+    }
+
+    40%,
+    80% {
+        transform: rotate(10deg);
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif;
+    color: var(--heading-color);
+}
+
+body {
+    margin: 0 !important;
+}
+
+body,
+p {
+    font-family: "Montserrat", sans-serif;
+    color: var(--paragraph-color);
+}
+
+/* Heading underline */
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+    width: 200px;
+
+    opacity: 0.60;
+    border: 0;
+    border-top: 1px solid var(--hr-color);
+    margin: 20px 0;
+}
+
+/* Link Styles */
+a {
+    color: var(--link-color);
+}
+
+a:hover {
+    color: var(--link-color-hover);
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, max-content);
+    max-width: 1920px;
+}
+
+/* Header Styles */
+header {
+    grid-row: 1/2;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+/* Nav Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-color);
+    position: relative;
+    padding: 0 30px 0 30px;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.navbar-logo h1 {
+    font-size: 24px;
+}
+
+/* Navigation Links */
+.navbar-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    float: left;
+}
+
+
+.navbar-links a {
+    display: block;
+    position: relative;
+    padding: 0.2em 0;
+    text-decoration: none;
+    color: var(--paragraph-color);
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+.navbar-links a:hover {
+    color: var(--link-color-hover);
+}
+
+/* Scale from center effect */
+.navbar-links a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.1em;
+    background-color: var(--link-color);
+    opacity: 0;
+    transform: scale(0);
+    transform-origin: center;
+    transition: opacity 300ms, transform 300ms;
+}
+
+.navbar-links a:hover::after,
+.navbar-links a:focus::after {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* Hide checkbox */
+#menuToggle {
+    display: none;
+}
+
+/* Hamburger Menu for Mobile */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: #000;
+    margin: 4px;
+}
+
+/* Full-screen Mobile Menu */
+.mobile-menu {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 1;
+}
+
+.mobile-menu li {
+    margin: 20px 0;
+}
+
+.mobile-menu a {
+    font-size: 24px;
+    text-decoration: none;
+    color: #000;
+}
+
+.mobile-menu a:hover {
+    color: #007bff;
+}
+
+/* Main Styles */
+main {
+    grid-row: 2/3;
+    height: minmax(100vh max-content);
+    padding: 0 30px 0 30px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+#left {
+    margin-left: 30px;
+    margin-right: 30px;
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+#right {
+    grid-column: 2/3;
+    background-image: url("../assets/mind-fuzz.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+/* Footer Styling */
+footer {
+    grid-row: 3/4;
+    background-color: var(--bg-color);
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid var(--border-color);
+}
+
+.footer-content {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.footer-content p {
+    color: var(--paragraph-color);
+    font-size: 1em;
+    margin: 0;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: var(--link-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-links a:hover {
+    color: var(--link-color-hover);
+}
+
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    #right {
+        display: none;
+    }
+
+    .navbar-links {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    /* Show the full-screen menu when checkbox is checked */
+    #menuToggle:checked~.mobile-menu {
+        display: flex;
+    }
+
+
+}

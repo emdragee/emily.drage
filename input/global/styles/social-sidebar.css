@@ -1,0 +1,53 @@
+/* Social Side bar START*/
+.social-sidebar {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.4;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    margin: 10px 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: var(--icon-filter);
+
+}
+
+.social-icon.github {
+    background-image: url('../assets/github-mark.png');
+
+}
+
+.social-icon.facebook {
+    background-image: url('../assets/Instagram_Glyph_Black.png');
+}
+
+.social-icon.linkedin {
+    background-image: url('../assets/LI-In-Bug-black.png');
+}
+
+.separator {
+    width: 1px;
+    height: 40px;
+    background-color: var(--heading-color);
+    margin: 10px 0;
+}
+
+.follow-me {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    color: var(--heading-color);
+}
+
+/* Social Side bar END*/

@@ -1,0 +1,24 @@
+[main]
+
+[[main.block]]
+format = "html"
+content_file = "../global/elements/head.html"
+
+[[main.block]]
+format = "html"
+content = "<meta property='article:section' content='Portfolio' />"
+
+[[main.block]]
+format = "html"
+content = "<body>"
+
+[[main.block]]
+format = "html"
+content_file = "../global/elements/navbar.html"
+
+[[main.block]]
+format = "document"
+
+[[main.block]]
+format = "html"
+content_file = "../global/elements/footer.html"
