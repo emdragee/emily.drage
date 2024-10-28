@@ -131,10 +131,10 @@
 
 		<ul class="navbar-links">
 		  <li><a href="#">Home</a></li>
-		  <li><a href="#">About Me</a></li>
-		  <li><a href="#">Portfolio</a></li>
-		  <li><a href="#">CV</a></li>
-		  <li><a href="#">Contact</a></li>
+		  <li><a target="_self" href="#about">About Me</a></li>
+		  <li><a target="_self" href="#portfolio">Portfolio</a></li>
+		  <li><a href="#cv">CV</a></li>
+		  <li><a href="#contact">Contact</a></li>
 		</ul>
 
 		<button class="theme-toggle mobile" id="theme-toggle" title="Toggles light & dark" aria-label="auto" aria-live="polite">
@@ -180,8 +180,8 @@
       </div>
   </section>
 
-  <section class="content">
-    <h2>About Me</h2>
+  <section name="about" class="content">
+    <h2 id="about">About Me</h2>
     <hr>
     <p>Hi, I’m Emily Drage, a jack of all trades (and a master of some…) with a passion for both visual arts and technology. I aim to build a broad knowledge base rather than focusing on a few specific skills, as I believe this makes me a better problem solver and a stronger asset in team environments.</p>
     <p>For a long time, I saw art as a hobby, but working as an IT business support officer made me realize the creative potential in designing websites and applications. That’s when I started applying my artistic skills to UX and UI design, where I discovered I had a natural flair—particularly in user experience design.</p>
@@ -189,7 +189,7 @@
   </section>
 
   <section class="content">
-    <h2>Portfolio</h2>
+    <h2 id="portfolio">Portfolio</h2>
     <hr>
     <p>Welcome to my web development portfolio. Here, you’ll find projects that I completed as part of earning my Certificate IV in Information Technology (Web Development) and Diploma of Information Technology (Front End Web Development).</p>
     <p>In the future, I will also include any freelance work I take on, so check back for updates as my portfolio continues to grow.</p>
@@ -249,15 +249,18 @@
     </article>
   </section>
   <section class="content">
-    <h2>CV</h2>
+    <h2 id="cv">CV</h2>
     <hr>
     <p>Please feel free to download my cv. </p>
-    <a href="documents/CV for website.pdf" download="" id="cv-button" class="btn button-filled visit-website-btn">Download CV</a>
+    <p>⋆｡°✩ <a target="_blank" href="/assets/documents/CV for website.pdf">View CV</a> ✩°｡⋆</p>
+    <p>🫧 <a href="/assets/documents/CV for website.pdf" download="" >Download CV</a> 🫧</p>
+    
+    <!-- <a href="documents/CV for website.pdf" download="" id="cv-button" class="btn button-filled visit-website-btn">Download CV</a> -->
   </section>
   <section class="content">
-    <h2>Contact Me</h2>
+    <h2 id="contact">Contact Me</h2>
     <hr>
-    <p>Email: <a>emdragee@gmail.com</a></p>
+    <p>Email: <a>emily.drage@outlook.com</a></p>
   </section>
 </div>
 <div id="right"></div>

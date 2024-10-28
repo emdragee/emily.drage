@@ -16,7 +16,14 @@
     margin-left: 50px;
   }
 }
-
+/* Space ubove heading when clicking nav link */
+[id]::before {
+  content: '';
+  display: block;
+  height:      75px;
+  margin-top: -75px;
+  visibility: hidden;
+}
 #cv-button {
   margin-top: 10px;
 }
