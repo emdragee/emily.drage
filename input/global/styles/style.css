@@ -279,10 +279,6 @@ footer {
     #right {
         display: none;
     }
-    #left {
-        width: 100%;
-    }
-
     .navbar-links {
         display: none;
         flex-direction: column; /* Changed to column for a vertical layout */
