@@ -43,6 +43,11 @@
 	</aside>
 	<header>
 	  <nav>
+		<button class="menu-toggle" aria-label="Toggle menu">
+			<span></span>
+			<span></span>
+			<span></span>
+		</button>
 		<div class="navbar-logo">
         <!--SVG START-->
 		<div class="svg-container" id="svgContainer">
@@ -60,15 +65,15 @@
 		</div>
 
 		<ul class="navbar-links">
-		  <li><a href="#">Home</a></li>
-		  <li><a target="_self" href="#about">About Me</a></li>
-		  <li><a target="_self" href="#portfolio">Portfolio</a></li>
-		  <li><a href="#cv">CV</a></li>
-		  <li><a href="#contact">Contact</a></li>
+		  <li><a href="/">Home</a></li>
+		  <li><a target="_self" href="/#about">About Me</a></li>
+		  <li><a target="_self" href="/#portfolio">Portfolio</a></li>
+		  <li><a href="/#cv">CV</a></li>
+		  <li><a href="/#contact">Contact</a></li>
 		</ul>
 
 		<button class="theme-toggle mobile" id="theme-toggle" title="Toggles light & dark" aria-label="auto" aria-live="polite">
-			<svg class="sun-and-moon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24">
+			<svg class="sun-and-moon" aria-hidden="true" viewBox="0 0 24 24">
 			  <mask class="moon" id="moon-mask">
 				<rect x="0" y="0" width="100%" height="100%" fill="white" />
 				<circle cx="24" cy="10" r="6" fill="black" />
@@ -85,16 +90,9 @@
 				<line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
 			   </g>
 			</svg>
-		  </button>
-
-		<!-- Hamburger icon as a label for the checkbox -->
-		<label for="menuToggle" class="hamburger">
-		  <div></div>
-		  <div></div>
-		  <div></div>
-		</label>
+		</button>
 	  </nav>
-	  <!-- The checkbox to toggle the mobile menu -->
+
 	</header>
 
 
@@ -116,4 +114,5 @@
 			</div>
 		  </footer>
 	</body>
+	<script src="js/hamburger.js"></script>
 </html>

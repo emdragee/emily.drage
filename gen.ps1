@@ -47,7 +47,7 @@ function Copy-GlobalAssets {
     Write-Host "Copying styles and assets..."
     Copy-Item -Path "input/global/styles" -Destination "docs/" -Recurse -Force -ErrorAction Stop
     Copy-Item -Path "input/global/assets" -Destination "docs/" -Recurse -Force -ErrorAction Stop
-    Copy-Item -Path "input/global/assets" -Destination "docs/" -Recurse -Force -ErrorAction Stop
+    Copy-Item -Path "input/global/js" -Destination "docs/" -Recurse -Force -ErrorAction Stop
 }
 
 function Main {
