@@ -1,7 +1,8 @@
 # IDE / editor specific ignores
 .idea/
 .vscode/
-
+node_modules/
+package-lock.json
 # Repo specific
 input/posts/export/
 input/portfolio/export/
