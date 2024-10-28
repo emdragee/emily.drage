@@ -1,7 +1,7 @@
 
 svg {
     grid-column: 1/2;
-    width: 70px; /* Set a width */
-    height: 70px; /* Set a height */
+    width: 40px; /* Set a width */
+    height: auto; /* Set a height */
 }
 .cls-1{stroke-width:5px;}.cls-1,.cls-2,.cls-3,.cls-4,.cls-5{stroke-miterlimit:10;}.cls-1,.cls-3,.cls-4,.cls-5{stroke:#000;}.cls-2{stroke:#fff;stroke-width:4px;}.cls-3{fill:#c5b8dd;stroke-width:2px;}.cls-6{fill:#fff;stroke-width:0px;}.cls-5{fill:#a587b2;stroke-width:3px;}
