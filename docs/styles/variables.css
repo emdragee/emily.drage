@@ -1,35 +1,37 @@
 :root {
-    --primary-color: #302AE6;
-    --secondary-color: #64f;
-    --bg-color: #d3d3ff;
-    --heading-color: black;
-    --paragraph-color: #424242;
-    --hr-color: #292922;
-    --icon-filter: invert(0);
-    --icon-fill: hsl(210, 10%, 30%); /* Default icon fill for light mode */
-    --icon-fill-hover: hsl(210, 10%, 15%);
-    --link-color: #64f;
-    --link-color-hover:#2b0e92; 
-    --border-color: #9D9DCC;
-    --code-snippet-bg-color: #f3eefc;
-  }
-  
-  [data-theme="dark"] {
-    --primary-color: #9A97F3;
-    --secondary-color: rgb(227, 194, 255);
-    --font-color: #D3D3FF;
-    --bg-color: #000000; 
-    --heading-color: #e1e1ff;
-    --paragraph-color: #d3d3ff;
-    --hr-color: #e1e1ffd1;
-    --icon-filter: invert(1);
-    --icon-fill: hsl(210, 10%, 70%); /* Icon fill for dark mode */
-    --icon-fill-hover: hsl(210, 15%, 90%);
-    --link-color: rgb(153, 130, 252);
-    --link-color-hover:rgb(227, 194, 255); 
-    --border-color: #444444;
-    --code-snippet-bg-color: #2d2d2d;
-  }
-  
-  
-  
+  --primary-color: #302AE6;
+  --secondary-color: #64f;
+  /* --bg-color: #d3d3ff; */
+  --bg-color: white;
+  --heading-color: black;
+  --paragraph-color: #424242;
+  --hr-color: #292922;
+  --icon-filter: invert(0);
+  --icon-fill: hsl(210, 10%, 30%);
+  /* Default icon fill for light mode */
+  --icon-fill-hover: hsl(210, 10%, 15%);
+  --link-color: #64f;
+  --link-color-hover: #2b0e92;
+  --border-color: #9D9DCC;
+  --code-snippet-bg-color: #f3eefc;
+  --image-filter: invert(1);
+}
+
+[data-theme="dark"] {
+  --primary-color: #9A97F3;
+  --secondary-color: rgb(227, 194, 255);
+  --font-color: #D3D3FF;
+  --bg-color: #000000;
+  --heading-color: #e1e1ff;
+  --paragraph-color: #d3d3ff;
+  --hr-color: #e1e1ffd1;
+  --icon-filter: invert(1);
+  --icon-fill: hsl(210, 10%, 70%);
+  /* Icon fill for dark mode */
+  --icon-fill-hover: hsl(210, 15%, 90%);
+  --link-color: rgb(153, 130, 252);
+  --link-color-hover: rgb(227, 194, 255);
+  --border-color: #444444;
+  --code-snippet-bg-color: #2d2d2d;
+  --image-filter: invert(0);
+}
