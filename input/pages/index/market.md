@@ -1,6 +1,9 @@
 <section class="tile">
 
+<div class="project-img-container">
 <img class="project-img responsive" src="assets/marketplace.png">
+</div>
+
 
 ##### Market Place
 

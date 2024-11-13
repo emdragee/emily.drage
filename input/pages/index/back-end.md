@@ -5,7 +5,7 @@
 
 ##### Back-end Development
 
-Created a one-page toy store using semantic HTML and CSS grid.
+This was my first time using PHP.
 
 [Read More](./portfolio/back-end.html)
 
