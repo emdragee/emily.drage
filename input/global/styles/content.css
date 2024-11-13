@@ -111,7 +111,7 @@
 
 .tile {
   display: grid;
-  grid-template-rows: 30% auto 1fr;
+  grid-template-rows: 30% auto auto auto;
   padding: 1em;
   overflow: hidden;
   border: 1px solid var(--border-color);
@@ -142,7 +142,7 @@
   display: block;
   align-items: flex-start;
   justify-content: center;
-  min-height: 150px;
+  min-height: auto;
   line-height: 1.6;
   margin: 0 10px;
   font-size: 1em;
@@ -152,43 +152,7 @@
   word-break: break-word;
 }
 
-.project-description .more-text {
-  display: none;
-  /* Initially hide the extra text */
-}
 
-.tile.expanded {
-  max-height: none;
-  /* Allow the tile to expand when the full text is revealed */
-}
-
-.more-text {
-  display: none;
-}
-
-.tile.expanded .more-text {
-  display: inline;
-}
-
-.read-more-btn {
-  margin-bottom: 10px;
-  color: var(--link-color);
-  cursor: pointer;
-  font-size: 0.9em;
-  text-decoration: underline;
-}
-
-.read-more-btn:hover {
-  color: var(--link-color-hover)
-    /* Change color on hover */
-}
-
-.visit-website-btn {
-  padding: 10px 15px;
-  text-align: center;
-  font-size: 1em;
-  text-decoration: none;
-}
 
 @media (max-width: 1900px) {
   .home-article {

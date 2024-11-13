@@ -3,7 +3,7 @@
 
 <img class="project-img responsive" src="assets/template-php.png">
 
-##### Back-end Development - Scripting
+##### Back-end Development
 
 Created a one-page toy store using semantic HTML and CSS grid.
 

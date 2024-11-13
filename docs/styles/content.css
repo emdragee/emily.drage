@@ -111,7 +111,7 @@
 
 .tile {
   display: grid;
-  grid-template-rows: 30% auto 1fr;
+  grid-template-rows: 30% auto auto auto;
   padding: 1em;
   overflow: hidden;
   border: 1px solid var(--border-color);
@@ -142,7 +142,7 @@
   display: block;
   align-items: flex-start;
   justify-content: center;
-  min-height: 150px;
+  min-height: auto;
   line-height: 1.6;
   margin: 0 10px;
   font-size: 1em;
