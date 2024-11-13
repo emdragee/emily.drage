@@ -18,7 +18,31 @@ content_file = "input/pages/index/content.html"
 
 [[main.block]]
 format = "md"
-content_file = "input/pages/index/index.md"
+content_file = "input/pages/index/about.md"
+
+[[main.block]]
+format = "md"
+content_file = "input/pages/index/portfolio.md"
+
+[[main.block]]
+format = "md"
+content_file = "input/pages/index/market.md"
+
+[[main.block]]
+format = "md"
+content_file = "input/pages/index/back-end.md"
+
+[[main.block]]
+format = "html"
+content = "</article>"
+
+[[main.block]]
+format = "html"
+content = "</section>"
+
+[[main.block]]
+format = "html"
+content = "</div><div id='right'></div></main>"
 
 [[main.block]]
 format = "html"
