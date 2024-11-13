@@ -110,8 +110,8 @@
 }
 
 .tile {
-  display: grid;
-  grid-template-rows: auto auto 1fr;
+  display: flex;
+  flex-direction: column;
   padding: 1em;
   overflow: hidden;
   border: 1px solid var(--border-color);
