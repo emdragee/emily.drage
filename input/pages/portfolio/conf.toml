@@ -14,7 +14,7 @@ content_file = "input/global/elements/navbar.html"
 
 [[main.block]]
 format = "html"
-content_file = "input/pages/portfolio/portfolio.md"
+content_file = "input/pages/portfolio/index.html"
 
 [[main.block]]
 format = "html"
