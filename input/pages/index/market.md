@@ -9,6 +9,6 @@
 
 A three-part project that involved creating a website for a fictitious client. 
 
-[Read More](./portfolio/market-place.html)
+[Read More](./portfolio/market-place)
 
 </section>

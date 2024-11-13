@@ -1,7 +1,7 @@
 <section class="tile">
 
 
-<img class="project-img responsive" src="assets/template-php.png">
+<img class="project-img responsive" src="/assets/template-php.png">
 
 ##### Back-end Development
 

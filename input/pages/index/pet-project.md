@@ -1,13 +1,14 @@
 <section class="tile">
 
 
-<img class="project-img responsive" src="assets/template-php.png">
+<img class="project-img responsive" src="/assets/emolyyart.png">
 
 ##### Pet Project
 
-A website created around a personal interest topic. This project utilized semantic HTML, CSS Grid, and some JavaScript.
+A website created around a personal interest topic.
 
-[Read More](./portfolio/pet-project.html)
+[Read More](./portfolio/pet-project)
+
 
 </section>
 

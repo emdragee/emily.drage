@@ -19,6 +19,6 @@ A three-part project that involved creating a website for a fictitious client. T
 
 Link to website: [market-place](https://dev.screencraft.net.au/~drageemi/market-place/index.html)
 
-![Sceenshot of a shoping website](/assets/marketplace.png)
+![Sceenshot of a shoping website](/assets/template-php.png)
 
 </section>
