@@ -7,7 +7,7 @@
 
 This was my first time using PHP.
 
-[Read More](./portfolio/back-end.html)
+[Read More](./portfolio/back-end)
 
 </section>
 
