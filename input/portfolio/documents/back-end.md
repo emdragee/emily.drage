@@ -9,15 +9,13 @@
 <section id="" class="content">
 
 
-## Market Place
+## Back-end Development – Scripting
 
 ---
 
-A three-part project that involved creating a website for a fictitious client. This project challenged me to build a functional and appealing website based on specific client requirements and an intentionally uninspiring brand logo.
 
-### Market Place Website
 
-Link to website: [market-place](https://dev.screencraft.net.au/~drageemi/market-place/index.html)
+<!-- Link to website: [market-place](https://dev.screencraft.net.au/~drageemi/market-place/index.html) -->
 
 ![Sceenshot of a shoping website](/assets/template-php.png)
 
