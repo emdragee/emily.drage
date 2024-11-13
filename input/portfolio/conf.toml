@@ -16,6 +16,12 @@ content_file = "../global/elements/navbar.html"
 
 [[main.block]]
 format = "html"
+content = "<nav id=\"breadcrumbs\" aria-label=\"Breadcrumbs\"></nav>"
+
+
+
+[[main.block]]
+format = "html"
 content = "<main id=\"main-port\">"
 
 

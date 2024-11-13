@@ -17,6 +17,8 @@
   --image-filter: invert(1);
   /* Nav box hover mobiel */
   --boxshadow: rgba(0, 0, 0, 0.3);
+  /*Breadcrumbs */
+  --breadcrumbs-background: rgba(0, 0, 0, 0.3);
 }
 
 [data-theme="dark"] {
@@ -38,4 +40,5 @@
   --image-filter: invert(0);
     /* Nav box hover mobiel */
     --boxshadow: rgba(150, 150, 150, 0.3);
+    --breadcrumbs-background: rgba(150, 150, 150, 0.3);
 }

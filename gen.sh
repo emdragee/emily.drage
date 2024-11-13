@@ -43,7 +43,6 @@ copy_global_assets() {
     echo "Copying styles and assets..."
     cp -r input/global/styles docs/ || { echo "Error copying styles"; exit 1; }
     cp -r input/global/assets docs/ || { echo "Error copying assets"; exit 1; }
-    cp -r input/global/js docs/ || { echo "Error copying assets"; exit 1; }
 }
 
 main() {

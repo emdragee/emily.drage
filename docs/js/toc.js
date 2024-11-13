@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
         // Indent <h3> items by nesting in a sub-list
         if (heading.tagName.toLowerCase() === "h3") {
-          listItem.style.marginLeft = "20px"; // Indent h3 items visually
+          listItem.style.marginLeft = "10px"; // Indent h3 items visually
         }
   
         tocList.appendChild(listItem);

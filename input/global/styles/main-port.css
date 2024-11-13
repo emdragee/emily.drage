@@ -1,26 +1,39 @@
 #main-port {
-    padding: 0 60px 0 60px;
+    padding: 0 30px 0 30px;
     display: grid;
     grid-template-columns: max-content max-content;
     grid-template-rows: max-content;
 }
 #main-port section {
     grid-column: 2/3;
+    padding: 15px;
 }
 #toc-container {
     grid-column: 1/2;
-}
-#toc-container {
+    padding: 15px;
+    h2, h3, h4, h5{
 
+    }
 }
 
 #toc-container h3 {
-
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
-#toc-container ul {
-  list-style-type: none;
+#toc-container {
+    ul, a {
+        list-style-type: none;
+
+    }
 }
-#toc-container a {
-  text-decoration: none;
+
+#breadcrumbs {
+    background-color: var(--breadcrumbs-background);
+    padding: 10px;
 }
+#breadcrumbs li,
+#breadcrumbs a {
+  text-transform: capitalize; /
+}
+
