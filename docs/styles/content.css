@@ -111,7 +111,7 @@
 
 .tile {
   display: grid;
-  grid-template-rows: auto auto 1fr;
+  grid-template-rows: 30% auto 1fr;
   padding: 1em;
   overflow: hidden;
   border: 1px solid var(--border-color);
