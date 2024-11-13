@@ -45,6 +45,14 @@ format = "html"
 content = "</section>"
 
 [[main.block]]
+format = "md"
+content_file = "input/pages/index/cv.md"
+
+[[main.block]]
+format = "md"
+content_file = "input/pages/index/contact.md"
+
+[[main.block]]
 format = "html"
 content = "</div><div id='right'></div></main>"
 

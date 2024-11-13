@@ -258,6 +258,7 @@ footer {
     padding: 20px 0;
     text-align: center;
     border-top: 1px solid var(--border-color);
+    margin-top: 50px;
 }
 
 .footer-content {
@@ -291,9 +292,13 @@ footer {
 /* Responsive Styles */
 @media (max-width: 600px) {
     main {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr !important;
+        padding: 0 5px 0 10px;
     }
 
+    #left {
+        grid-column: 1/2;
+    }
     #right {
         display: none;
     }
@@ -309,7 +314,7 @@ footer {
         padding: 1em;
         width: 100%;
         /* Set to full width */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 4px 8px var(--boxshadow);
         z-index: 1000;
     }
 
