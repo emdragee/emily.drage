@@ -1,0 +1,26 @@
+#main-port {
+    padding: 0 60px 0 60px;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-template-rows: max-content;
+}
+#main-port section {
+    grid-column: 2/3;
+}
+#toc-container {
+    grid-column: 1/2;
+}
+#toc-container {
+
+}
+
+#toc-container h3 {
+
+}
+
+#toc-container ul {
+  list-style-type: none;
+}
+#toc-container a {
+  text-decoration: none;
+}

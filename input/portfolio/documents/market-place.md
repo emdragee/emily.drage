@@ -1,22 +1,20 @@
-<head>
-    <title>Market Place</title>
-    <meta property="og:title" content="Item 1"/>
-    <meta name="description" content="Longer description that will appear on Google and the likes. " />
-    <meta property="og:description" content="Short description tagline for embeds." />
-    	<script src="js/theme-toggle.js"></script>
-    <link href="../styles/style.css" rel="stylesheet" />
-	<link rel="stylesheet" href="../styles/theme-toggle.css"/>
-    <link rel="stylesheet" href="../styles/theme-switch.css"/>
-    <link rel="stylesheet" href="../styles/sun-and-moon.css"/>
+
+<title>Market Place</title>
+<meta property="og:title" content="Item 1"/>
+<meta name="description" content="Longer description that will appear on Google and the likes. " />
+<meta property="og:description" content="Short description tagline for embeds." />
+
 </head>
 
-<article>
-<header>
-	<h1>
-	    Market Place
-	</h1>
-</header>
+<section id="" class="content">
 
-Description of Portfolio Market Place
 
-</article>
+## Market Place
+
+---
+
+A three-part project that involved creating a website for a fictitious client. This project challenged me to build a functional and appealing website based on specific client requirements and an intentionally uninspiring brand logo.
+
+### more
+
+</section>

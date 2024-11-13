@@ -14,6 +14,10 @@ content_file = "input/global/elements/navbar.html"
 
 [[main.block]]
 format = "html"
+content = "<main id=\"main\">"
+
+[[main.block]]
+format = "html"
 content_file = "input/pages/index/content.html"
 
 [[main.block]]
@@ -54,7 +58,11 @@ content_file = "input/pages/index/contact.md"
 
 [[main.block]]
 format = "html"
-content = "</div><div id='right'></div></main>"
+content = "</div><div id='right'></div>"
+
+[[main.block]]
+format = "html"
+content = "</div></main>"
 
 [[main.block]]
 format = "html"

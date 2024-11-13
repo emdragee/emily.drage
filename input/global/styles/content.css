@@ -1,4 +1,5 @@
-.content {
+.content { 
+/* Space ubove heading when clicking nav link */
   scroll-margin-top: 4rem;
   background-color: var(--bg-color);
 
@@ -25,8 +26,6 @@
     max-width: 85ch;
   }
 }
-
-/* Space ubove heading when clicking nav link */
 
 
 /* Main button Stylin */
@@ -163,7 +162,7 @@
 @media (max-width: 600px) {
   
   #intro {
-    height: 70vh;
+    height: 85vh;
   }
   .home-article {
     display: flex;
@@ -172,6 +171,9 @@
 
   .content {
     width: 100%;
+  }
+  #contact {
+    height: 70vh;
   }
 
 }

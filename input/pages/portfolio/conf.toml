@@ -14,6 +14,10 @@ content_file = "input/global/elements/navbar.html"
 
 [[main.block]]
 format = "html"
+content = "<main id=\"main-port\">"
+
+[[main.block]]
+format = "html"
 content_file = "input/pages/portfolio/portfolio.md"
 
 [[main.block]]
