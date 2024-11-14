@@ -2,48 +2,20 @@
 
 [[main.block]]
 format = "html"
-content_file = "../global/elements/head.html"
+content_file = "input/global/elements/head.html"
 
 [[main.block]]
 format = "html"
-content = "<meta property='article:section' content='Portfolio' />"
-
-
+content_file = "input/pages/portfolio/head.html"
 
 [[main.block]]
 format = "html"
-content_file = "../global/elements/navbar.html"
+content_file = "input/global/elements/navbar.html"
 
 [[main.block]]
 format = "html"
-content = "<nav id=\"breadcrumbs\" aria-label=\"Breadcrumbs\"></nav>"
-
-
+content_file = "input/pages/portfolio/portfolio.md"
 
 [[main.block]]
 format = "html"
-content = "<main id=\"main-port\">"
-
-
-[[main.block]]
-format = "html"
-content = "<body>"
-
-[[main.block]]
-format = "html"
-content = "<div id=\"toc-container\" class=\"toc-class\"></div>"
-
-[[main.block]]
-format = "document"
-
-
-[[main.block]]
-format = "html"
-content = "</div></main>"
-
-
-[[main.block]]
-format = "html"
-content_file = "../global/elements/footer.html"
-
-
+content_file = "input/global/elements/footer.html"
