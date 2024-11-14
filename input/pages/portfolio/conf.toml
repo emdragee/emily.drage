@@ -13,7 +13,7 @@ format = "html"
 content_file = "input/global/elements/navbar.html"
 
 [[main.block]]
-format = "html"
+format = "md"
 content_file = "input/pages/portfolio/portfolio.md"
 
 [[main.block]]
