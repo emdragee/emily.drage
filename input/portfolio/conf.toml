@@ -48,7 +48,7 @@ content_file = "../global/elements/footer.html"
 [[main.block]]
 format = "html"
 content = """\
-	<script src='js/toc.js'></script>\
+	<script src='/js/toc.js'></script>\
 	<script src='/js/breadcrumbs.js'></script>\
 """
 

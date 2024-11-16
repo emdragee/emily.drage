@@ -20,11 +20,6 @@ document.addEventListener("DOMContentLoaded", () => {
   
         listItem.appendChild(anchor);
   
-        // Indent <h3> items by nesting in a sub-list
-        if (heading.tagName.toLowerCase() === "h3") {
-          listItem.style.marginLeft = "10px"; // Indent h3 items visually
-        }
-  
         tocList.appendChild(listItem);
       });
     });
