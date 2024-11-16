@@ -262,9 +262,17 @@ footer {
     text-align: center;
     border-top: 1px solid var(--border-color);
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-.footer-content {
+/* .footer-content {
     margin: 0 auto;
     width: 90%;
     max-width: 1200px;
@@ -289,7 +297,7 @@ footer {
 
 .social-links a:hover {
     color: var(--link-color-hover);
-}
+} */
 
 
 /* Responsive Styles */
