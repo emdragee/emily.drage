@@ -111,7 +111,7 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, max-content);
-    max-width: 1920px;
+    width: 100%;
 }
 
 /* Header Styles */

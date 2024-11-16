@@ -11,23 +11,29 @@
 #toc-container {
     grid-column: 1/2;
     padding: 15px;
+    position: sticky;
+    top: 20px; 
+    max-height: calc(100vh - 40px);
+    overflow-y: auto; 
     h2, h3, h4, h5{
-
-    }
+  }
 }
-
 #toc-container h3 {
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
-#toc-container {
-    ul, a {
-        list-style-type: 🦄;
-
-    }
+#toc-container .active {
+    opacity: 1 !important;
 }
-
+#toc-container ul li a {
+    opacity: 0.5 ;
+}
+#toc-container ul li.active a {
+    font-weight: bold;
+    opacity: 1 !important;
+}
+  
 #breadcrumbs {
     background-color: var(--breadcrumbs-background);
     padding: 10px;
@@ -36,4 +42,11 @@
 #breadcrumbs a {
   text-transform: capitalize; /
 }
-
+@media (max-width: 600px) {
+    .socialist-sidebar {
+        display: none;
+    }
+    #toc-container {
+        display: none;
+    }
+}
