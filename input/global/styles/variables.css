@@ -13,6 +13,7 @@
   --link-color: #64f;
   --link-color-hover: #2b0e92;
   --border-color: #9D9DCC;
+  --link-color-fade: 	hsla(251, 100%, 63%, 0.564);
   --code-snippet-bg-color: #f3eefc;
   --image-filter: invert(1);
   /* Nav box hover mobiel */

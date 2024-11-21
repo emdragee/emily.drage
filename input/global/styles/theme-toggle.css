@@ -6,7 +6,7 @@
   --icon-fill-hover: hsl(210 10% 15%);
   background: none;
   border: none;
-  padding: 0;
+  padding: 5px;
   inline-size: var(--size);
   block-size: var(--size);
   aspect-ratio: 1;
