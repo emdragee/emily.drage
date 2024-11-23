@@ -9,7 +9,7 @@
 <section class="content">
 
 
-## This is my full Portfolio
+## This is my full Portfolio test
 
 ---
 
@@ -34,7 +34,7 @@ A three-part project that involved creating a website for a fictitious client.
 
 A website created around a personal interest topic.
 
-[Read More](./portfolio/pet-project)
+[Read More](./pet-project)
 
 
 Link to website: [emolyy.art](https://emolyy.art/)
