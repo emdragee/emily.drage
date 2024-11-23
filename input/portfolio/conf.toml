@@ -20,11 +20,6 @@ content = "<nav id=\"breadcrumbs\" aria-label=\"Breadcrumbs\"></nav>"
 
 [[main.block]]
 format = "html"
-content = "<body>"
-
-
-[[main.block]]
-format = "html"
 content = "<main id=\"main-port\">"
 
 [[main.block]]
