@@ -18,6 +18,7 @@
   --image-filter: invert(1);
   /* Nav box hover mobiel */
   --boxshadow: rgba(0, 0, 0, 0.3);
+  --box-shadow-tile: 0 2px 4px rgba(0, 0, 0, 0.1);
   /*Breadcrumbs */
   --breadcrumbs-background: rgba(0, 0, 0, 0.3);
 }
