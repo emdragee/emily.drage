@@ -11,5 +11,3 @@ A website created around a personal interest topic.
 
 
 </section>
-
-

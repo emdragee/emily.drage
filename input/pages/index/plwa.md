@@ -3,11 +3,11 @@
 
 <img class="project-img responsive" src="/assets/plwa.png">
 
-##### Pet Project
+##### PLWA
 
-A website created around a personal interest topic.
+The Public Libraries WA (PLWA) website redevelopment project aimed to modernize the organization’s digital presence.
 
-[Read More](./portfolio/pet-project)
+[Read More](./portfolio/plwa)
 
 
 </section>

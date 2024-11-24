@@ -161,19 +161,6 @@ input, button, textarea, select {
 }
 
 
-
-/* @media (min-width: 1900px) {
-  .home-article {
-    grid-template-columns: repeat(4, 1fr);
-    gap: 3px;
-  }
-  
-  .home-article h4 {
-    grid-column: 1/5;
-  }
-
-} */
-
 @media (max-width: 600px) {
   
   #intro {
