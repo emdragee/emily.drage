@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: 
+Allow: /emilydrage.com
+Disallow: /cgi-bin/
+Sitemap: https://emilydrage.com/sitemap.xml

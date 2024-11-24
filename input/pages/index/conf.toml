@@ -30,6 +30,10 @@ content_file = "input/pages/index/portfolio.md"
 
 [[main.block]]
 format = "md"
+content_file = "input/pages/index/plwa.md"
+
+[[main.block]]
+format = "md"
 content_file = "input/pages/index/market.md"
 
 [[main.block]]

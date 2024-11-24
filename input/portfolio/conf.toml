@@ -6,8 +6,14 @@ content_file = "../global/elements/head.html"
 
 [[main.block]]
 format = "html"
-content = "<meta property='article:section' content='Portfolio' />"
+content = """\
+	<link href='/styles/main-port.css' rel='stylesheet'>\
+"""
 
+
+[[main.block]]
+format = "html"
+content = "<meta property='article:section' content='Portfolio' />"
 
 
 [[main.block]]
@@ -17,11 +23,6 @@ content_file = "../global/elements/navbar.html"
 [[main.block]]
 format = "html"
 content = "<nav id=\"breadcrumbs\" aria-label=\"Breadcrumbs\"></nav>"
-
-
-[[main.block]]
-format = "html"
-content = "<body>"
 
 
 [[main.block]]

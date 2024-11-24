@@ -1,7 +1,7 @@
 #main-port {
     padding: 0 30px 0 30px;
     display: grid;
-    grid-template-columns: max-content max-content;
+    grid-template-columns: 15% max-content;
     grid-template-rows: max-content;
 }
 #main-port section {
@@ -15,8 +15,6 @@
     top: 20px; 
     max-height: calc(100vh - 40px);
     overflow-y: auto; 
-    h2, h3, h4, h5{
-  }
 }
 #toc-container h3 {
     margin-top: 15px;
@@ -42,8 +40,11 @@
 #breadcrumbs a {
   text-transform: capitalize; /
 }
+img, iframe {
+    border: 1px solid var(--border-color);
+}
 @media (max-width: 600px) {
-    .socialist-sidebar {
+  .socialist-sidebar {
         display: none;
     }
     #toc-container {

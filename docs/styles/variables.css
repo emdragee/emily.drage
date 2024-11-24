@@ -18,6 +18,7 @@
   --image-filter: invert(1);
   /* Nav box hover mobiel */
   --boxshadow: rgba(0, 0, 0, 0.3);
+  --box-shadow-tile: 0 2px 4px rgba(0, 0, 0, 0.1);
   /*Breadcrumbs */
   --breadcrumbs-background: rgba(0, 0, 0, 0.3);
 }
@@ -40,6 +41,8 @@
   --code-snippet-bg-color: #2d2d2d;
   --image-filter: invert(0);
     /* Nav box hover mobiel */
-    --boxshadow: rgba(150, 150, 150, 0.3);
-    --breadcrumbs-background: rgba(150, 150, 150, 0.3);
+  --boxshadow: rgba(150, 150, 150, 0.3);
+  --box-shadow-tile: 0 2px 5px rgba(114, 8, 160, 0.393);
+  /*Breadcrumbs */
+  --breadcrumbs-background: rgba(150, 150, 150, 0.3);
 }
