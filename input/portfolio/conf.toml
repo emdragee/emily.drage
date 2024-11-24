@@ -6,6 +6,13 @@ content_file = "../global/elements/head.html"
 
 [[main.block]]
 format = "html"
+content = """\
+	<link href='/styles/main-port.css' rel='stylesheet'>\
+"""
+
+
+[[main.block]]
+format = "html"
 content = "<meta property='article:section' content='Portfolio' />"
 
 

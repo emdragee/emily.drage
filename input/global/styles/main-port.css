@@ -44,7 +44,7 @@ img, iframe {
     border: 1px solid var(--border-color);
 }
 @media (max-width: 600px) {
-    .socialist-sidebar {
+  .socialist-sidebar {
         display: none;
     }
     #toc-container {
