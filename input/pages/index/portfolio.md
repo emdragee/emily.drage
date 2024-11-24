@@ -9,7 +9,6 @@ Welcome to my web development portfolio. Here, you’ll find projects that I com
 
 In the future, I will also include any freelance work I take on, so check back for updates as my portfolio continues to grow.
 
-### Tafe Projects
 
 Tafe Courses:
 
@@ -19,4 +18,4 @@ Tafe Courses:
 
 <article class="home-article">
 
-#### Tafe Projects
+### Tafe Projects

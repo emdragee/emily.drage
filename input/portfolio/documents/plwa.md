@@ -39,7 +39,9 @@ Link to website (Development): [librarian.screencraft.net.au/](https://librarian
 ### 🧠Brainstorm
 
 
-<iframe width="800" height="450" src="https://embed.figma.com/design/dDF9Ksbolullb02bxSzG4J/Brainstorm?node-id=0-1&embed-host=share" allowfullscreen></iframe>
+<div class="iframe-container">
+    <iframe class="responsive-iframe" src="https://embed.figma.com/design/dDF9Ksbolullb02bxSzG4J/Brainstorm?node-id=0-1&embed-host=share" allowfullscreen></iframe>
+<div>
 </section>
 <section id="" class="content">
 
@@ -47,6 +49,8 @@ Link to website (Development): [librarian.screencraft.net.au/](https://librarian
 ### ⚙️Prototype
 
 
-<iframe  width="800" height="450" src="https://embed.figma.com/design/imLb55aU6ouDdiKkhm018F/Website?node-id=118-275&embed-host=share" allowfullscreen></iframe>
+<div class="iframe-container">
+    <iframe class="responsive-iframe" src="https://embed.figma.com/design/imLb55aU6ouDdiKkhm018F/Website?node-id=118-275&embed-host=share" allowfullscreen></iframe>
+<div>
 </section>
 </section>
