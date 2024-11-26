@@ -2,7 +2,7 @@
 
 [[main.block]]
 format = "html"
-content_file = "../global/elements/head.html"
+content_file = "input/global/elements/head.html"
 
 [[main.block]]
 format = "html"
