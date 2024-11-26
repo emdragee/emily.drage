@@ -139,7 +139,7 @@ nav {
     position: relative;
     padding: 0 30px 0 30px;
 
-    button {
+    .popover-button {
     	display: none;
 		background: none;
 		padding: 0;
@@ -217,7 +217,7 @@ nav {
 }
 
 @media (max-width: 600px) {
-	nav button {
+	nav .popover-button {
 		display: block;
 	}
 
