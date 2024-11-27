@@ -44,9 +44,6 @@ content_file = "input/pages/index/market.md"
 format = "md"
 content_file = "input/pages/index/pet-project.md"
 
-[[main.block]]
-format = "md"
-content_file = "input/pages/index/back-end.md"
 
 [[main.block]]
 format = "html"
