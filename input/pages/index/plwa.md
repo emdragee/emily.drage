@@ -9,6 +9,7 @@ The Public Libraries WA (PLWA) website redevelopment project aimed to modernize 
 
 [Read More](./portfolio/plwa)
 
+![My Skills](https://skillicons.dev/icons?i=wordpress,figma,tailwind)
 
 </section>
 

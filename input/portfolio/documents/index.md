@@ -31,7 +31,8 @@ Feel free to take a look around.
 
 This project was completed in collaboration with a real-life client, the Public Libraries Western Australia (PLWA) association, as part of a student team during the completion of a Diploma of Front-End Web Development. The project required my team to design and develop a custom WordPress parent theme tailored to the needs of the organization. 
 
-![Sceenshot of a shoping website](/assets/plwa.png)
+![Sceenshot of a PLWA website](/assets/plwa.png)
+
 
 [Read More](./plwa)
 

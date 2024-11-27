@@ -11,9 +11,4 @@ For a long time, I saw art as a hobby, but working as an IT business support off
 
 I thrive in team settings where I can bounce ideas around, solve problems collaboratively, and be creative within clear guidelines (as odd as that may sound!). I love problem-solving, and I believe the best solutions come from working together with a team of experts.
 
-### skills
-
-![My Skills](https://skillicons.dev/icons?i=html,css,js,php,wordpress,react,nextjs,bootstrap,ps,ai,figma)
-
-
 </section>
