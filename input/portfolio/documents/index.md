@@ -40,6 +40,20 @@ This project was completed in collaboration with a real-life client, the Public 
 <section class="content">
 
 
+## 🌱Gorges Garden Center
+
+I designed and developed a Bootstrap website for a fictitious client, George's Garden Center. The project included creating a custom logo and a cohesive color palette to establish a consistent and visually appealing brand identity.
+
+![Style Tile](/assets/gg-style-tile.png)
+
+
+[Read More](./gorgesgarden)
+
+
+</section>
+<section class="content">
+
+
 ## 🫧Market Place
 
 A three-part project that involved creating a website for a fictitious client. 
