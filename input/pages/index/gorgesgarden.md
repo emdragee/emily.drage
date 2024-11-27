@@ -7,8 +7,10 @@
 
 ##### Gorges Garden - Bootstrap
 
-A website created using bootsrap.
+I designed and developed a Bootstrap website for a fictitious client, George's Garden Center using bootsrap.
 
 [Read More](./portfolio/gorgesgarden)
+
+![My Skills](https://skillicons.dev/icons?i=html,css,bootstrap)
 
 </section>

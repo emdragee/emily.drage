@@ -9,5 +9,6 @@ A website created around a personal interest topic.
 
 [Read More](./portfolio/pet-project)
 
+![My Skills](https://skillicons.dev/icons?i=html,css,js)
 
 </section>

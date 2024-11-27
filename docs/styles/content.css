@@ -123,9 +123,10 @@ input, button, textarea, select {
 
   box-shadow: var(--box-shadow-tile);
 }
-.tile img {
+.project-img{
   border: 1px solid var(--border-color);
 }
+
 .tile:hover {
   transform: translateY(-5px);
 }
