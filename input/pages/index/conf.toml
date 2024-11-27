@@ -34,6 +34,10 @@ content_file = "input/pages/index/plwa.md"
 
 [[main.block]]
 format = "md"
+content_file = "input/pages/index/gorgesgarden.md"
+
+[[main.block]]
+format = "md"
 content_file = "input/pages/index/market.md"
 
 [[main.block]]
