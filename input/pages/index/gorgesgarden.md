@@ -1,7 +1,7 @@
 <section class="tile">
 
 <div class="project-img-container">
-<img class="project-img responsive" src="assets/gorgesgarden.png">
+<img class="project-img responsive" src="assets/gorgesgarden.webp">
 </div>
 
 

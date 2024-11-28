@@ -31,7 +31,7 @@ Feel free to take a look around.
 
 This project was completed in collaboration with a real-life client, the Public Libraries Western Australia (PLWA) association, as part of a student team during the completion of a Diploma of Front-End Web Development. The project required my team to design and develop a custom WordPress parent theme tailored to the needs of the organization. 
 
-![Sceenshot of a PLWA website](/assets/plwa.png)
+![Sceenshot of a PLWA website](/assets/plwa.webp)
 
 
 [Read More](./plwa)
@@ -45,7 +45,7 @@ This project was completed in collaboration with a real-life client, the Public 
 
 I designed and developed a Bootstrap website for a fictitious client, George's Garden Center. The project included creating a custom logo and a cohesive color palette to establish a consistent and visually appealing brand identity.
 
-![Style Tile](/assets/gg-style-tile.png)
+![Style Tile](/assets/gg-style-tile.webp)
 
 
 [Read More](./gorgesgarden)
@@ -59,7 +59,7 @@ I designed and developed a Bootstrap website for a fictitious client, George's G
 
 A three-part project that involved creating a website for a fictitious client. 
 
-![Sceenshot of a shoping website](/assets/marketplace.png)
+![Sceenshot of a shoping website](/assets/marketplace.webp)
 
 [Read More](./market-place)
 

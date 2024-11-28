@@ -1,7 +1,7 @@
 <section class="tile">
 
 
-<img class="project-img responsive" src="/assets/plwa.png">
+<img class="project-img responsive" src="/assets/plwa.webp">
 
 ##### PLWA
 

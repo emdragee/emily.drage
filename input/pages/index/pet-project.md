@@ -1,7 +1,7 @@
 <section class="tile">
 
 
-<img class="project-img responsive" src="/assets/emolyyart.png">
+<img class="project-img responsive" src="/assets/emolyyart.webp">
 
 ##### Pet Project
 

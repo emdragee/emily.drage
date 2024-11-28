@@ -38,7 +38,7 @@ Link to website (Development): [librarian.screencraft.net.au/](https://librarian
 
 ### 🧠Brainstorm
 
-![Image of brainstom](/assets/Brainstorm.png)
+![Image of brainstom](/assets/Brainstorm.webp)
 
 <div class="iframe-container">
     <iframe class="responsive-iframe" src="https://embed.figma.com/design/dDF9Ksbolullb02bxSzG4J/Brainstorm?node-id=0-1&embed-host=share" allowfullscreen></iframe>
