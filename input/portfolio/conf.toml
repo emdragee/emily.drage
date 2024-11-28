@@ -7,7 +7,13 @@ content_file = "../global/elements/head.html"
 [[main.block]]
 format = "html"
 content = """\
-	<link href='/styles/main-port.css' rel='stylesheet'>\
+	<link rel='stylesheet' href='/styles/main-port.css' >\
+"""
+
+[[main.block]]
+format = "html"
+content = """\
+	<link rel='stylesheet' href='/styles/toc.css' >\
 """
 
 

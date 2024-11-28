@@ -1,14 +1,4 @@
-/* Importing base styles */
-@import url("/styles/base/reset.css");
-@import url("/styles/base/body.css");
 
-@custom-media --motionOK (prefers-reduced-motion: no-preference);
-@import "variables.css";
-@import "eye-svg.css";
-@import "social-sidebar.css";
-@import "content.css";
-
-@import "toc.css";
 
 * {
 
@@ -282,7 +272,7 @@ nav {
 
 #right {
     grid-column: 2/3;
-    background-image: url("../assets/mind-fuzz.png");
+    background-image: url("../assets/mind-fuzz.webp");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
