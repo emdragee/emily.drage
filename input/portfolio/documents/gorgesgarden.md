@@ -41,7 +41,7 @@ Check out my lanning document. In this document you will find:
 
 I created this style tile to help keep my style consitant throught the project.
 
-![Style Tile](/assets/gg-style-tile.png)
+![Style Tile](/assets/gg-style-tile.webp)
 
 </section>
 </section>
