@@ -7,7 +7,7 @@
 
 .sun-and-moon > .moon,
 .sun-and-moon > .sun {
-  fill: var(--icon-fill);
+  fill: var(--paragraph-color);
 }
 
 .theme-toggle:hover > .sun-and-moon > .moon,
@@ -18,7 +18,7 @@
 }
 
 .sun-and-moon > .sun-beams {
-  stroke: var(--icon-fill);
+  stroke: var(--paragraph-color);
   stroke-width: 2px;
 }
 
