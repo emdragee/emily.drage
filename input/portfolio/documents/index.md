@@ -7,7 +7,7 @@
 <meta property="og:title" content="Emily Drage | Portfolio" />
 <meta property="og:description" content="Showcasing web development, design, and creative problem-solving projects, including real-life client work like PLWA, George's Garden Center, and more." />
 <meta property="og:url" content="https://emilydrage.com/portfolio/" />
-<meta property="og:image" content="https://imagedelivery.net/2DJRavW3O9VLw5fFBBZYRA/49bd6682-6073-4ad5-a4c5-566066539500/public" />
+<meta property="og:image" content="https://imagedelivery.net/2DJRavW3O9VLw5fFBBZYRA/a60e818e-28a3-4e4f-985c-4e7c23262200/public" />
 <meta property="og:type" content="website" />
 
 </head>
