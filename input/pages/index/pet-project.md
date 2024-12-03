@@ -5,7 +5,7 @@
 
 ##### Pet Project
 
-A website created around a personal interest topic.
+A website created around a personal interest topic. This project utilized semantic HTML, CSS Grid, and some JavaScript. 
 
 [Read More](./portfolio/pet-project)
 
