@@ -1,6 +1,6 @@
 
 <title>Portfolio - George's Garden Center</title>
-<meta name="description" content="Project for George's Garden Center, featuring a custom Bootstrap website, logo design, and cohesive color palette. View the demo website and planning documents to see the creative process in action." />
+<meta name="description" content="Project for fictitious client George's Garden Center, featuring a custom Bootstrap website, logo design, and cohesive color palette. View the demo website and planning documents to see the creative process in action." />
 <meta property="og:title" content="Portfolio - George's Garden Center" />
 <meta property="og:description" content="Custom Bootstrap website with logo design and cohesive branding for George's Garden Center. Explore the demo and project details." />
 <meta property="og:url" content="https://emilydrage.com/portfolio/gorgesgarden" />

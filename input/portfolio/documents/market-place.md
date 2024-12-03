@@ -1,8 +1,13 @@
 
-<title>Portfolio</title>
-<meta property="og:title" content="Item 1"/>
-<meta name="description" content="Longer description that will appear on Google and the likes. " />
-<meta property="og:description" content="Short description tagline for embeds." />
+<title>Portfolio - Market Place</title>
+<meta name="description" content="Market Place project, a three-part web design challenge creating a functional, appealing website for a fictitious client with unique requirements. View the demo website and project details." />
+<meta property="og:title" content="Portfolio - Market Place" />
+<meta property="og:description" content="Explore the Market Place project: a website design challenge for a fictitious client with specific requirements and an intentionally uninspiring logo. See the demo and details." />
+<meta property="og:url" content="https://emilydrage.com/portfolio/market-place" />
+<meta property="og:image" content="https://dev.screencraft.net.au/assets/marketplace.webp" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Emily Drage Portfolio" />
+
 
 </head>
 
