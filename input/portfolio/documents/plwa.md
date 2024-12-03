@@ -3,8 +3,8 @@
 <meta name="description" content="Discover the Public Libraries WA website redevelopment project. See how the team modernized a 2009 Joomla website to meet modern accessibility, usability, and security standards." />
 <meta property="og:title" content="PLWA Website Redevelopment" />
 <meta property="og:description" content="A collaborative project revamping the Public Libraries WA website, focusing on accessibility and usability improvements." />
-<meta property="og:url" content="https://librarian.screencraft.net.au/" />
-<meta property="og:image" content="https://example.com/assets/og/plwa-og-image.webp" />
+<meta property="og:url" content="https://emilydrage.com/portfolio/plwa" />
+<meta property="og:image" content="https://imagedelivery.net/2DJRavW3O9VLw5fFBBZYRA/96bd7731-651d-4004-8bf4-8b3ef6346f00/public" />
 
 
 </head>
