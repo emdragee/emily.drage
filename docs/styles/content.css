@@ -94,6 +94,7 @@ input, button, textarea, select {
 .home-article {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
   gap: 3px;
 }
 
@@ -107,6 +108,8 @@ input, button, textarea, select {
 }
 
 .tile {
+  min-height: 37rem;
+  max-height: 37rem;
   display: grid;
   grid-template-rows: 30% max-content 35% max-content 20%;
   padding: 1em;
