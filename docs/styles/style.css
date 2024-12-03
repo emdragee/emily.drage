@@ -150,7 +150,10 @@ nav {
 .navbar-logo h1 {
     font-size: 24px;
 }
-
+.hamburger-svg {
+    fill: pink;
+    color: var(--paragraph-color);
+}
 /* Navigation Links */
 
 #popover-menu {

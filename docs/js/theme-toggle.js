@@ -56,6 +56,3 @@ window
     theme.value = isDark ? 'dark' : 'light'
     setPreference()
   })
-
-
-  
