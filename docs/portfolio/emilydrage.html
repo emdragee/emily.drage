@@ -28,11 +28,9 @@
     <link rel="stylesheet" href="/styles/base/reset.css"/>
     <link rel="stylesheet" href="/styles/base/body.css"/>
     <!--Page Specific styles will load below-->
-    <title>Page Not Found</title>
-    <meta property="og:title" content="Page Not Found"/>
-</head>
-
-<body>
+<link rel='stylesheet' href='/styles/main-port.css' >
+<link rel='stylesheet' href='/styles/toc.css' >
+<meta property='article:section' content='Portfolio' />
 <div id="wrapper">
 	<aside class="socialist-sidebar">
 	  <!--Nav bar Vertical START-->
@@ -118,9 +116,52 @@
 
 
 
-<h1>Error</h1>
-<p>Oops! We couldn’t find this page. Did you type it right?</p>
+<nav id="breadcrumbs" aria-label="Breadcrumbs"></nav>
+<main id="main-port">
+<div id="toc-container" class="toc-class"></div>
+<title>Portfolio - emilydrage.com</title>
+<meta name="description" content="Discover how I created my portfolio website using Cloudflare Pages, Adduce, and a custom HTML, CSS, and JavaScript template. Learn about my branding journey and unique design choices." />
+<meta property="og:title" content="Portfolio - How I Built My Website" />
+<meta property="og:description" content="Dive into the process behind my portfolio website! From using Cloudflare Pages and the Adduce generator to custom branding and light/dark mode features, explore the creative and technical journey." />
+<meta property="og:url" content="https://emilydrage.com/portfolio/emilydrage" />
+<meta property="og:image" content="https://imagedelivery.net/2DJRavW3O9VLw5fFBBZYRA/a60e818e-28a3-4e4f-985c-4e7c23262200/public" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Emily Drage Portfolio" />
+</head>
+<section id="" class="content">
+<h2>emilydrage.com</h2>
+<hr />
+<p>This site is powered by Cloudflare Pages, a free and reliable hosting platform for static websites. For this project, I used the minimalist static site generator Adduce. Why? Because I’d already crafted a custom template using HTML, CSS, and JavaScript, and most other generators seem to lean heavily on pre-built themes. Adduce’s simplicity made it the perfect match for my vision, allowing me to seamlessly integrate my existing design.</p>
+<ul>
+<li>
+<p>Explore my GitHub Repo: <a href="https://github.com/emdragee/emily.drage">github.com/emdragee/emily.drage</a></p>
+</li>
+<li>
+<p>Adduce github repo: <a href="https://github.com/DeclanChidlow/Adduce">github.com/DeclanChidlow/Adduce</a></p>
+</li>
+</ul>
+</section>
+<section class="content">
+<h3>Branding: Finding My Eye-dentity 👁️</h3>
+<p>After many different versions and attempts, I decided to go back to my roots when designing a brand logo for myself. I took inspiration from my art, I like to draw eyes 👀, and whats better than an eye for an icon.</p>
+<div class="article-page-img-centered" >
+    <img class="no-border" src="/assets/eye-icon.svg" alt="Eye icon brand emilydrage." width="100px">
+</div>
+<p>While I initially added this logo to my navigation bar, I wasn’t thrilled with how it looked in light and dark modes.</p>
+<p>Example dark mode nav with icon:
+<img src="/assets/dark-nav.png" alt="dark nav" /></p>
+<p>Eample light mode with icon:
+<img src="/assets/light-nav.png" alt="light nav" /></p>
+<p>That’s why I decided to simplify things by using a clean, minimal chevron symbol &lt;/&gt; as my navigation icon. It’s sleek, functional, and blends effortlessly with the overall design!</p>
+</section>
+<section class="content">
+<h3>Light Dark Mode them switch 🌞🌙</h3>
+<p>You may have noticed the light dark mode theme switch on my website. This component was cleaverly designed by Adam Argyle. I replicated it by following the article he wrote “<a href="https://web.dev/articles/building/a-theme-switch-component">Building a theme switch component</a>”.</p>
+<p>Not only does this component include a smooth animation, but it also adapts to your device’s theme preferences. Change your device’s theme, and my website will follow suit—no extra clicks required. How cool is that?</p>
+<p><img src="/assets/light-dark-switch-2.gif" alt="light nav" /></p>
+</section>
 
+</div></main>
 
 
 		<footer class="footer-content">
@@ -159,3 +200,4 @@
 		  <script src="/js/nav.js"></script>
 	</body>
 </html>
+<script src='/js/toc.js'></script><script src='/js/breadcrumbs.js'></script>

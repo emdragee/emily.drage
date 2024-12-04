@@ -30,6 +30,26 @@ content_file = "input/pages/index/portfolio.md"
 
 [[main.block]]
 format = "md"
+content_file = "input/pages/index/personal.md"
+
+[[main.block]]
+format = "md"
+content_file = "input/pages/index/emilydrage.md"
+
+[[main.block]]
+format = "html"
+content = "</article>"
+
+[[main.block]]
+format = "html"
+content = "</section>"
+
+[[main.block]]
+format = "md"
+content_file = "input/pages/index/tafe.md"
+
+[[main.block]]
+format = "md"
 content_file = "input/pages/index/plwa.md"
 
 [[main.block]]
@@ -44,10 +64,13 @@ content_file = "input/pages/index/market.md"
 format = "md"
 content_file = "input/pages/index/pet-project.md"
 
-
 [[main.block]]
 format = "html"
 content = "</article>"
+
+[[main.block]]
+format = "html"
+content = "</section>"
 
 [[main.block]]
 format = "html"

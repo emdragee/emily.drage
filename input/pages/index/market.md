@@ -1,3 +1,4 @@
+
 <section class="tile">
 
 <div class="project-img-container">
@@ -7,7 +8,7 @@
 
 ##### Market Place
 
-A three-part project that involved creating a website for a fictitious client. 
+A three-part project to create a website for a fictitious client, focusing on meeting specific requirements and designing around an intentionally uninspiring logo.
 
 [Read More](./portfolio/market-place)
 

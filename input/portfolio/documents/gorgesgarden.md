@@ -1,8 +1,13 @@
 
-<title>Portfolio</title>
-<meta property="og:title" content="Item 1"/>
-<meta name="description" content="Longer description that will appear on Google and the likes. " />
-<meta property="og:description" content="Short description tagline for embeds." />
+<title>Portfolio - George's Garden Center</title>
+<meta name="description" content="Project for fictitious client George's Garden Center, featuring a custom Bootstrap website, logo design, and cohesive color palette. View the demo website and planning documents to see the creative process in action." />
+<meta property="og:title" content="Portfolio - George's Garden Center" />
+<meta property="og:description" content="Custom Bootstrap website with logo design and cohesive branding for George's Garden Center. Explore the demo and project details." />
+<meta property="og:url" content="https://emilydrage.com/portfolio/gorgesgarden" />
+<meta property="og:image" content="https://emilydrage.com/assets/gg-style-tile.webp" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Emily Drage Portfolio" />
+
 
 </head>
 

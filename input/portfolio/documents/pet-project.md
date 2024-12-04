@@ -1,8 +1,13 @@
 
-<title>Pet Project</title>
-<meta property="og:title" content="Item 1"/>
-<meta name="description" content="Longer description that will appear on Google and the likes. " />
-<meta property="og:description" content="Short description tagline for embeds." />
+<title>Portfolio - Pet Project</title>
+<meta name="description" content="Explore my Pet Project, a personal-interest website built with semantic HTML, CSS Grid, and JavaScript. Learn about best practices in web design, accessibility, and the use of modern image file formats." />
+<meta property="og:title" content="Portfolio - Pet Project" />
+<meta property="og:description" content="A personal-interest website showcasing semantic HTML, CSS Grid, JavaScript, and best practices in coding standards and accessibility. View the Emolyy.Art project and explore modern image formats." />
+<meta property="og:url" content="https://emilydrage.com/portfolio/pet-project" />
+<meta property="og:image" content="https://imagedelivery.net/2DJRavW3O9VLw5fFBBZYRA/a60e818e-28a3-4e4f-985c-4e7c23262200/public" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Emily Drage Portfolio" />
+
 
 </head>
 

@@ -1,11 +1,14 @@
 
-<title>Portfolio</title>
-<meta property="og:title" content="Item 1"/>
-<meta name="description" content="Longer description that will appear on Google and the likes. " />
-<meta name="page-identifier" content="portfolio">
+<title>Emily Drage | Portfolio</title>
+<meta name="description" content="Explore the portfolio of Emily Drage, showcasing projects in web development, design, and creative problem-solving. View real-life client work, personal projects, and more." />
+<meta name="page-identifier" content="portfolio" />
 
-
-<meta property="og:description" content="Short description tagline for embeds." />
+<!-- Open Graph Tags -->
+<meta property="og:title" content="Emily Drage | Portfolio" />
+<meta property="og:description" content="Showcasing web development, design, and creative problem-solving projects, including real-life client work like PLWA, George's Garden Center, and more." />
+<meta property="og:url" content="https://emilydrage.com/portfolio/" />
+<meta property="og:image" content="https://imagedelivery.net/2DJRavW3O9VLw5fFBBZYRA/a60e818e-28a3-4e4f-985c-4e7c23262200/public" />
+<meta property="og:type" content="website" />
 
 </head>
 
