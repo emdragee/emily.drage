@@ -52,7 +52,7 @@ That’s why I decided to simplify things by using a clean, minimal chevron symb
 
 You may have noticed the light dark mode theme switch on my website. This component was cleaverly designed by Adam Argyle. I replicated it by following the article he wrote "[Building a theme switch component](https://web.dev/articles/building/a-theme-switch-component)".
 
-Not only does this component include a smooth animation, but it also adapts to your device’s theme preferences. Change your device’s theme, and my website will change its theme. How cool is that? 
+Not only does this component include a smooth animation, but it also adapts to your device’s theme preferences. Change your device’s theme, and my website will change it's theme. How cool is that 😎? 
 
 ![light nav](/assets/light-dark-switch-2.gif)
 

@@ -13,9 +13,34 @@ format = "html"
 content_file = "input/global/elements/navbar.html"
 
 [[main.block]]
+format = "html"
+content = "<nav id=\"breadcrumbs\" aria-label=\"Breadcrumbs\"></nav>"
+
+
+[[main.block]]
+format = "html"
+content = "<main id=\"main-port\">"
+
+[[main.block]]
+format = "html"
+content = "<div id=\"toc-container\" class=\"toc-class\"></div>"
+
+
+[[main.block]]
 format = "md"
 content_file = "input/pages/404/404.md"
 
 [[main.block]]
 format = "html"
+content = "</main>"
+
+[[main.block]]
+format = "html"
 content_file = "input/global/elements/footer.html"
+
+[[main.block]]
+format = "html"
+content = """\
+	<script src='/js/toc.js'></script>\
+	<script src='/js/breadcrumbs.js'></script>\
+"""

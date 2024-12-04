@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const sections = document.querySelectorAll("#main-port section");
   const tocList = document.createElement("ul");
 
-  tocContainer.innerHTML = "<h3>TOC</h3>";
+  tocContainer.innerHTML = "<h3>Contents</h3>";
 
   sections.forEach((section, index) => {
     if (!section.id) {

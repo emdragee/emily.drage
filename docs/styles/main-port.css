@@ -6,7 +6,6 @@
 }
 #main-port section {
     grid-column: 2/3;
-    padding: 15px;
 }
 #toc-container {
     grid-column: 1/2;
@@ -64,10 +63,11 @@ img, iframe {
 }
 @media (max-width: 600px) {
     #main-port {
-       padding: 0;
-       display: flex;
-       flex-direction: column;
+        padding: 0 1rem 0 1rem;
     }
+    #main-port section {
+        padding: 0;
+     }
     #toc-container {
         display: none;
     }

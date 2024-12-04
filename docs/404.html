@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="/styles/base/reset.css"/>
     <link rel="stylesheet" href="/styles/base/body.css"/>
     <!--Page Specific styles will load below-->
+    <link rel="stylesheet" href="/styles/main-port.css"/>
     <title>Page Not Found</title>
     <meta property="og:title" content="Page Not Found"/>
 </head>
@@ -98,9 +99,20 @@
 
 
 
-<h1>Error</h1>
-<p>Oops! We couldn’t find this page. Did you type it right?</p>
+<nav id="breadcrumbs" aria-label="Breadcrumbs"></nav>
+<main id="main-port">
+<div id="toc-container" class="toc-class"></div>
+<section id="" class="content">
+<h2>404 Error</h2>
+<hr />
+<p>Oops! It seems you’re trying to access a page that doesn’t exist. Please double-check the URL for any typos.</p>
+<p>If you believe this is due to a broken link, feel free to contact the website owner at Email: <a href="mailto:emily.drage@outlook.com">emily.drage@outlook.com</a></p>
+<blockquote>
+<p><a href="/">Back to Home</a></p>
+</blockquote>
+</section>
 
+</main>
 
 
 		<footer class="footer-content">
@@ -141,3 +153,4 @@
 		</div>
 	</body>
 </html>
+<script src='/js/toc.js'></script><script src='/js/breadcrumbs.js'></script>
