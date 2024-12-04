@@ -18,7 +18,7 @@
 
 ---
 
-This site is powered by Cloudflare Pages, a free and reliable hosting platform for static websites. For this project, I used the minimalist static site generator Adduce. Why? Because I’d already crafted a custom template using HTML, CSS, and JavaScript, and most other generators seem to lean heavily on pre-built themes. Adduce’s simplicity made it the perfect match for my vision, allowing me to seamlessly integrate my existing design.
+This site is powered by Cloudflare Pages, a free and reliable hosting platform for static websites. For this project, I used the static site generator Adduce. Why? Because I’d already crafted a custom template using HTML, CSS, and JavaScript, and most other generators seem to lean heavily on pre-built themes. Adduce’s simplicity made it the perfect match for my vision, allowing me to seamlessly integrate my existing design.
 
 - Explore my GitHub Repo: [github.com/emdragee/emily.drage](https://github.com/emdragee/emily.drage)
 
@@ -48,11 +48,11 @@ That’s why I decided to simplify things by using a clean, minimal chevron symb
 </section>
 <section class="content">
 
-### Light Dark Mode them switch 🌞🌙
+### Light Dark Mode theme switch 🌞🌙
 
 You may have noticed the light dark mode theme switch on my website. This component was cleaverly designed by Adam Argyle. I replicated it by following the article he wrote "[Building a theme switch component](https://web.dev/articles/building/a-theme-switch-component)".
 
-Not only does this component include a smooth animation, but it also adapts to your device’s theme preferences. Change your device’s theme, and my website will follow suit—no extra clicks required. How cool is that? 
+Not only does this component include a smooth animation, but it also adapts to your device’s theme preferences. Change your device’s theme, and my website will change its theme. How cool is that? 
 
 ![light nav](/assets/light-dark-switch-2.gif)
 

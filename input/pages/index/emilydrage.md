@@ -7,7 +7,7 @@
 
 ##### emilydrage.com
 
-A website created around a personal interest topic. This project utilized semantic HTML, CSS Grid, and some JavaScript. 
+My web dev portfolio website, this website... Curious about how I built it? Click "Read More" to dive into the details.
 
 [Read More](./portfolio/emilydrage)
 
