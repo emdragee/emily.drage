@@ -28,6 +28,22 @@ Feel free to take a look around.
 <section class="content">
 
 
+## 👩🏻‍💻My Portfolio Website
+
+### emilydrage.com
+
+My web dev portfolio website, this website... Curious about how I built it? Click "Read More" to dive into the details.
+
+![Emily Drage Logo](https://imagedelivery.net/2DJRavW3O9VLw5fFBBZYRA/a60e818e-28a3-4e4f-985c-4e7c23262200/public)
+
+
+[Read More](./emilydrage)
+
+
+</section>
+<section class="content">
+
+
 ## 📖Real Life Client 
 
 ### Public Libraries Western Australia (PLWA) 

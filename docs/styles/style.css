@@ -312,6 +312,9 @@ footer {
 
 
 @media (max-width: 600px) {
+    nav {
+        padding: 0.2rem;
+    }
     main {
         grid-template-columns: 1fr !important;
         padding: 0 5px 0 10px;

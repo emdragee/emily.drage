@@ -10,6 +10,10 @@ content_file = "input/pages/index/head.html"
 
 [[main.block]]
 format = "html"
+content_file = "input/global/elements/side-bar.html"
+
+[[main.block]]
+format = "html"
 content_file = "input/global/elements/navbar.html"
 
 [[main.block]]
@@ -90,7 +94,7 @@ content = "</div><div id='right'></div>"
 
 [[main.block]]
 format = "html"
-content = "</div></main>"
+content = "</main>"
 
 [[main.block]]
 format = "html"
