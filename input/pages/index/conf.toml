@@ -41,6 +41,10 @@ format = "html"
 content = "</article>"
 
 [[main.block]]
+format = "html"
+content = "</section>"
+
+[[main.block]]
 format = "md"
 content_file = "input/pages/index/tafe.md"
 
@@ -64,6 +68,9 @@ content_file = "input/pages/index/pet-project.md"
 format = "html"
 content = "</article>"
 
+[[main.block]]
+format = "html"
+content = "</section>"
 
 [[main.block]]
 format = "html"

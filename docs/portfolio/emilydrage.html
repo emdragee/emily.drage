@@ -28,21 +28,9 @@
     <link rel="stylesheet" href="/styles/base/reset.css"/>
     <link rel="stylesheet" href="/styles/base/body.css"/>
     <!--Page Specific styles will load below-->
-    <title>Emily Drage</title>
-
-    <meta name="description" content="Hi, I'm Emily Drage, a front-end web developer. This is my portfolio website showcasing my work and skills.">
-    <meta name="author" content="Emily Drage">
-
-    <meta property="og:title" content="Emily Drage - Front-end Web Developer Portfolio" />
-    <meta property="og:type" content="website" />
-    <meta property="og:description" content="Hi, I'm Emily Drage, a front-end web developer." />
-    <meta property="og:image" content="https://imagedelivery.net/2DJRavW3O9VLw5fFBBZYRA/a60e818e-28a3-4e4f-985c-4e7c23262200/public" />
-    <meta property="og:url" content="https://emilydrage.com/" />
-    <meta property="og:locale" content="en_AU" />
-    <meta property="og:site_name" content="Emily Drage Portfolio" />
-</head>
-
-<body>
+<link rel='stylesheet' href='/styles/main-port.css' >
+<link rel='stylesheet' href='/styles/toc.css' >
+<meta property='article:section' content='Portfolio' />
 <div id="wrapper">
 	<aside class="socialist-sidebar">
 	  <!--Nav bar Vertical START-->
@@ -128,115 +116,51 @@
 
 
 
-<main id="main">
-<div id="left">
-<section id="intro" class="content">
-    <h2>Hello, I am Emily Drage</h2>
-    <p>This is my portfolio website</p>
-    <div class="center">
-      <div class="button-group">
-        <a href="/#portfolio" class="btn button-empty">Portfolio</a>
-        <a href="/#contact" class="btn button-filled">Contact Me</a>
-      </div>
-  </section>
-
-<section id="about" class="content">
-<h2>About Me</h2>
+<nav id="breadcrumbs" aria-label="Breadcrumbs"></nav>
+<main id="main-port">
+<div id="toc-container" class="toc-class"></div>
+<title>Portfolio - emilydrage.com</title>
+<meta name="description" content="Discover how I created my portfolio website using Cloudflare Pages, Adduce, and a custom HTML, CSS, and JavaScript template. Learn about my branding journey and unique design choices." />
+<meta property="og:title" content="Portfolio - How I Built My Website" />
+<meta property="og:description" content="Dive into the process behind my portfolio website! From using Cloudflare Pages and the Adduce generator to custom branding and light/dark mode features, explore the creative and technical journey." />
+<meta property="og:url" content="https://emilydrage.com/portfolio/emilydrage" />
+<meta property="og:image" content="https://imagedelivery.net/2DJRavW3O9VLw5fFBBZYRA/a60e818e-28a3-4e4f-985c-4e7c23262200/public" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Emily Drage Portfolio" />
+</head>
+<section id="" class="content">
+<h2>emilydrage.com</h2>
 <hr />
-<p>Hi, I’m Emily Drage, a jack of all trades (and a master of some…) with a passion for both visual arts and technology. I aim to build a broad knowledge base rather than focusing on a few specific skills, as I believe this makes me a better problem solver and a stronger asset in team environments.</p>
-<p>For a long time, I saw art as a hobby, but working as an IT business support officer made me realize the creative potential in designing websites and applications. That’s when I started applying my artistic skills to UX and UI design, where I discovered I had a natural flair—particularly in user experience design.</p>
-<p>I thrive in team settings where I can bounce ideas around, solve problems collaboratively, and be creative within clear guidelines (as odd as that may sound!). I love problem-solving, and I believe the best solutions come from working together with a team of experts.</p>
-<h3>skills</h3>
-<p><img src="https://skillicons.dev/icons?i=html,css,js,php,wordpress,react,nextjs,bootstrap,ps,ai,figma" alt="My Skills" /></p>
-</section>
-<section id="portfolio" class="content">
-<h2>Portfolio</h2>
-<hr />
-<p>Welcome to my web development portfolio. Here, you’ll find projects that I completed as part of earning my Certificate IV in Information Technology (Web Development) and Diploma of Information Technology (Front End Web Development).</p>
-<p>In the future, I will also include any freelance work I take on, so check back for updates as my portfolio continues to grow.</p>
-
-<section id="personal" class="content">
-<h3>Personal Projects</h3>
-<p>Here are my personal projects. Currently, this portfolio website is my primary project.</p>
-<article class="home-article">
-
-<section class="tile">
-<div class="project-img-container">
-<img class="project-img-fit  responsive" src="https://imagedelivery.net/2DJRavW3O9VLw5fFBBZYRA/a60e818e-28a3-4e4f-985c-4e7c23262200/public">
-</div>
-<h5>emilydrage.com</h5>
-<p>A website created around a personal interest topic. This project utilized semantic HTML, CSS Grid, and some JavaScript.</p>
-<p><a href="./portfolio/emilydrage">Read More</a></p>
-<p><img src="https://skillicons.dev/icons?i=html,css,js" alt="My Skills" /></p>
-</section>
-
-</article>
-</section>
-<section id="tafe" class="content">
-<h3>Tafe Projects</h3>
-<p>Tafe Courses:</p>
+<p>This site is powered by Cloudflare Pages, a free and reliable hosting platform for static websites. For this project, I used the minimalist static site generator Adduce. Why? Because I’d already crafted a custom template using HTML, CSS, and JavaScript, and most other generators seem to lean heavily on pre-built themes. Adduce’s simplicity made it the perfect match for my vision, allowing me to seamlessly integrate my existing design.</p>
 <ul>
-<li>ICT50220 Diploma of Information Technology (Front End Web Development)</li>
-<li>ICT40120 Certificate IV in Information Technology (Web Development)</li>
+<li>
+<p>Explore my GitHub Repo: <a href="https://github.com/emdragee/emily.drage">github.com/emdragee/emily.drage</a></p>
+</li>
+<li>
+<p>Adduce github repo: <a href="https://github.com/DeclanChidlow/Adduce">github.com/DeclanChidlow/Adduce</a></p>
+</li>
 </ul>
-<article class="home-article">
-
-<section class="tile">
-<img class="project-img responsive" src="/assets/plwa.webp">
-<h5>PLWA</h5>
-<p>The Public Libraries WA (PLWA) website redevelopment project aimed to modernize the organization’s digital presence.</p>
-<p><a href="./portfolio/plwa">Read More</a></p>
-<p><img src="https://skillicons.dev/icons?i=wordpress,figma,tailwind" alt="My Skills" /></p>
 </section>
-
-<section class="tile">
-<div class="project-img-container">
-<img class="project-img responsive" src="assets/gorgesgarden.webp">
+<section class="content">
+<h3>Branding: Finding My Eye-dentity 👁️</h3>
+<p>After many different versions and attempts, I decided to go back to my roots when designing a brand logo for myself. I took inspiration from my art, I like to draw eyes 👀, and whats better than an eye for an icon.</p>
+<div class="article-page-img-centered" >
+    <img class="no-border" src="/assets/eye-icon.svg" alt="Eye icon brand emilydrage." width="100px">
 </div>
-<h5>Gorges Garden - Bootstrap</h5>
-<p>I designed and developed a Bootstrap website for a fictitious client, George’s Garden Center using bootsrap.</p>
-<p><a href="./portfolio/gorgesgarden">Read More</a></p>
-<p><img src="https://skillicons.dev/icons?i=html,css,bootstrap" alt="My Skills" /></p>
+<p>While I initially added this logo to my navigation bar, I wasn’t thrilled with how it looked in light and dark modes.</p>
+<p>Example dark mode nav with icon:
+<img src="/assets/dark-nav.png" alt="dark nav" /></p>
+<p>Eample light mode with icon:
+<img src="/assets/light-nav.png" alt="light nav" /></p>
+<p>That’s why I decided to simplify things by using a clean, minimal chevron symbol &lt;/&gt; as my navigation icon. It’s sleek, functional, and blends effortlessly with the overall design!</p>
+</section>
+<section class="content">
+<h3>Light Dark Mode them switch 🌞🌙</h3>
+<p>You may have noticed the light dark mode theme switch on my website. This component was cleaverly designed by Adam Argyle. I replicated it by following the article he wrote “<a href="https://web.dev/articles/building/a-theme-switch-component">Building a theme switch component</a>”.</p>
+<p>Not only does this component include a smooth animation, but it also adapts to your device’s theme preferences. Change your device’s theme, and my website will follow suit—no extra clicks required. How cool is that?</p>
+<p><img src="/assets/light-dark-switch-2.gif" alt="light nav" /></p>
 </section>
 
-<section class="tile">
-<div class="project-img-container">
-<img class="project-img responsive" src="assets/marketplace.webp">
-</div>
-<h5>Market Place</h5>
-<p>A three-part project to create a website for a fictitious client, focusing on meeting specific requirements and designing around an intentionally uninspiring logo.</p>
-<p><a href="./portfolio/market-place">Read More</a></p>
-<p><img src="https://skillicons.dev/icons?i=html,css,js" alt="My Skills" /></p>
-</section>
-
-<section class="tile">
-<div class="project-img-container">
-<img class="project-img responsive" src="/assets/emolyyart.webp">
-</div>
-<h5>Pet Project</h5>
-<p>A website created around a personal interest topic. This project utilized semantic HTML, CSS Grid, and some JavaScript.</p>
-<p><a href="./portfolio/pet-project">Read More</a></p>
-<p><img src="https://skillicons.dev/icons?i=html,css,js" alt="My Skills" /></p>
-</section>
-
-</article>
-</section>
-</section>
-<section id="cv" class="content">
-<h2>CV</h2>
-<hr />
-<p>Please feel free to download my cv.</p>
-<p>⋆｡°✩ <a target="_blank" href="/assets/documents/Emily-Drage-cv.pdf">View CV</a> ✩°｡⋆</p>
-<p>🫧 <a href="/assets/documents/Emily-Drage-cv.pdf" download="" >Download CV</a> 🫧</p>
-</section>
-
-<section id="contact" class="content">
-<h2>Contact</h2>
-<hr />
-<p>Email: <a href="mailto:emily.drage@outlook.com">emily.drage@outlook.com</a></p>
-</section>
-
-</div><div id='right'></div>
 </div></main>
 
 
@@ -276,3 +200,4 @@
 		  <script src="/js/nav.js"></script>
 	</body>
 </html>
+<script src='/js/toc.js'></script><script src='/js/breadcrumbs.js'></script>

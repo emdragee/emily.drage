@@ -110,10 +110,6 @@ input, button, textarea, select {
 
   box-shadow: var(--box-shadow-tile);
 }
-.project-img{
-  border: 1px solid var(--border-color);
-}
-
 .tile:hover {
   transform: translateY(-5px);
 }
@@ -131,6 +127,14 @@ input, button, textarea, select {
   height: 100%; 
   object-fit: cover; 
   object-position: center; 
+  border: 1px solid var(--border-color);
+}
+.project-img-fit {
+  width: 100%; 
+  height: 100%; 
+  object-fit: contain; 
+  object-position: center; 
+  border: 1px solid var(--border-color);
 }
 
 .tile h5 {

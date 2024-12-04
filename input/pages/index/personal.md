@@ -1,4 +1,4 @@
-<section id="portfolio" class="content">
+<section id="personal" class="content">
 
 
 ### Personal Projects
