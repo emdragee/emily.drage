@@ -48,7 +48,7 @@ That’s why I decided to simplify things by using a clean, minimal chevron symb
 </section>
 <section class="content">
 
-### Light Dark Mode theme switch 🌞🌙
+### Light Dark Mode Theme Switch 🌞🌙
 
 You may have noticed the light dark mode theme switch on my website. This component was cleaverly designed by Adam Argyle. I replicated it by following the article he wrote "[Building a theme switch component](https://web.dev/articles/building/a-theme-switch-component)".
 

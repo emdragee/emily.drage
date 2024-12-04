@@ -9,15 +9,16 @@
 }
 #toc-container {
     grid-column: 1/2;
-    padding: 15px;
+    padding: 1rem;
     position: sticky;
     top: 20px; 
     max-height: calc(100vh - 40px);
     overflow-y: auto; 
 }
 #toc-container h3 {
-    margin-top: 15px;
-    margin-bottom: 15px;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 #toc-container .active {
