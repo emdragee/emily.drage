@@ -127,7 +127,7 @@ nav {
     background-color: var(--bg-color);
 
     position: relative;
-    padding: 0 30px 0 30px;
+    padding: 0 2.5rem 0 2.5rem;
 
     .popover-button {
     	display: none;
@@ -260,13 +260,12 @@ nav {
 #main {
     grid-row: 2/3;
     height: minmax(100vh max-content);
-    padding: 0 30px 0 30px;
+    padding: 0 2.5rem 0 2.5rem;
     display: grid;
     grid-template-columns: 70% 30%;
 }
 #left {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin: 0;
     grid-column: 1/2;
     display: flex;
     flex-direction: column;
