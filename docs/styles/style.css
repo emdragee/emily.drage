@@ -260,7 +260,7 @@ nav {
 #main {
     grid-row: 2/3;
     height: minmax(100vh max-content);
-    padding: 0 2.5rem 0 2.5rem;
+    padding: 0 2.7rem 0 2.7rem;
     display: grid;
     grid-template-columns: 70% 30%;
 }
@@ -270,6 +270,7 @@ nav {
     display: flex;
     flex-direction: column;
     gap: 3rem;
+    padding: 0 2.7rem 0 0;
 }
 
 #right {
@@ -309,32 +310,6 @@ footer {
     font-weight: bold;
 }
 
-/* .footer-content {
-    margin: 0 auto;
-    width: 90%;
-    max-width: 1200px;
-}
-
-.footer-content p {
-    color: var(--paragraph-color);
-    font-size: 1em;
-    margin: 0;
-}
-
-.social-links {
-    margin-top: 10px;
-}
-
-.social-links a {
-    margin: 0 10px;
-    color: var(--link-color);
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.social-links a:hover {
-    color: var(--link-color-hover);
-} */
 
 @media (max-width: 600px) {
     main {

@@ -174,7 +174,6 @@ input, button, textarea, select {
 }
 
 @media (max-width: 600px) {
-  
   #intro {
     height: 85vh;
   }
@@ -182,12 +181,20 @@ input, button, textarea, select {
     display: flex;
     flex-direction: column;
   }
-
   .content {
     width: 100%;
   }
   #contact {
     height: 70vh;
+  }
+  p {
+    max-width: auto;
+  }
+  #left {
+    padding: 0;
+  }
+  #main {
+    padding: 0 1rem 0 2.5rem;
   }
 
 }
