@@ -44,14 +44,19 @@
 .no-border {
     border: none;
 }
-.article-page-img-centered {
+.article-page-img {
     display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 20px 0; /* Optional: adds spacing around the image */
+    max-width: 85ch;
 }
 .article-page-img-centered {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 20px 0; /* Optional: adds spacing around the image */
+    max-width: 85ch;
 }
 
 .article-page-img-centered img {
@@ -62,6 +67,22 @@
 img, iframe {
     border: 1px solid var(--border-color);
 }
+.iframe-container {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    padding-top: 56.25%;
+  }
+  .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 85ch;
+    height: 23rem;
+  }
 @media (max-width: 600px) {
     #main-port {
         padding: 0 1rem 0 1rem;

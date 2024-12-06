@@ -41,20 +41,37 @@ Link to website (Development): [librarian.screencraft.net.au/](https://librarian
 
 ### 🧠Brainstorm
 
-![Image of brainstom](/assets/Brainstorm.webp)
 
-<div class="iframe-container">
-    <iframe class="responsive-iframe" src="https://embed.figma.com/design/dDF9Ksbolullb02bxSzG4J/Brainstorm?node-id=0-1&embed-host=share" allowfullscreen></iframe>
-<div>
+<div class="article-page-img-centered" >
+    <iframe  width="800" height="450" src="https://embed.figma.com/design/KC450a5svIRnYJWDi1rexa/Untitled?node-id=0-1&embed-host=share" allowfullscreen></iframe>
+</div>
 </section>
 <section id="" class="content">
 
 
 ### ⚙️Prototype
 
+<div class="article-page-img-centered" >
+    <iframe width="800" height="450" src="https://embed.figma.com/design/imLb55aU6ouDdiKkhm018F/Website?node-id=248-2242&embed-host=share" allowfullscreen></iframe>
+</div>
+</section>
+</section>
+<section id="" class="content">
 
-<div class="iframe-container">
-    <iframe class="responsive-iframe" src="https://embed.figma.com/design/imLb55aU6ouDdiKkhm018F/Website?node-id=118-275&embed-host=share" allowfullscreen></iframe>
-<div>
+### 🛠️Tech Stack
+
+Main contenders.
+
+<div class="article-page-img" >
+    <img class="no-border" src="https://skillicons.dev/icons?i=wordpress,tailwind,git">
+</div>
+
+- **WordPress**: Built on a custom block parent theme developed by the team.
+- **Custom Post Plugin**: Created by Declan Chidlow to extend functionality.
+- **Forminator Plugin**: Utilized for managing the contact form.
+- **Tailwind CSS**: For styling and responsive design.
+- **Git**: Used for version control and collaboration.
+
+
 </section>
-</section>
+
