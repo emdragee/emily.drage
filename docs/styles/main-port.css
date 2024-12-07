@@ -49,7 +49,7 @@
     justify-content: left;
     align-items: center;
     margin: 20px 0; /* Optional: adds spacing around the image */
-    max-width: 85ch;
+
 }
 .article-page-img-centered {
     display: flex;
@@ -92,5 +92,8 @@ img, iframe {
      }
     #toc-container {
         display: none;
+    }
+    iframe{
+        height: 12rem;
     }
 }
