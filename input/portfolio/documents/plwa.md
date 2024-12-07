@@ -43,7 +43,7 @@ Link to website (Development): [librarian.screencraft.net.au/](https://librarian
 
 
 <div class="article-page-img-centered" >
-    <iframe  width="100%" height="450" src="https://embed.figma.com/design/KC450a5svIRnYJWDi1rexa/Untitled?node-id=0-1&embed-host=share" allowfullscreen></iframe>
+    <iframe width="99%" height="450" src="https://embed.figma.com/design/KC450a5svIRnYJWDi1rexa/Untitled?node-id=0-1&embed-host=share" allowfullscreen></iframe>
 </div>
 </section>
 <section id="" class="content">
@@ -52,7 +52,7 @@ Link to website (Development): [librarian.screencraft.net.au/](https://librarian
 ### ⚙️Prototype
 
 <div class="article-page-img-centered" >
-    <iframe width="100%" height="450" src="https://embed.figma.com/design/imLb55aU6ouDdiKkhm018F/Website?node-id=248-2242&embed-host=share" allowfullscreen></iframe>
+    <iframe width="99%" height="450" src="https://embed.figma.com/design/imLb55aU6ouDdiKkhm018F/Website?node-id=248-2242&embed-host=share" allowfullscreen></iframe>
 </div>
 </section>
 
