@@ -18,4 +18,8 @@ content_file = "input/pages/contact/contact.md"
 
 [[main.block]]
 format = "html"
+content_file = "input/pages/contact/contact-form.html"
+
+[[main.block]]
+format = "html"
 content_file = "input/global/elements/footer.html"
