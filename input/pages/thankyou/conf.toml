@@ -6,7 +6,7 @@ content_file = "input/global/elements/head.html"
 
 [[main.block]]
 format = "html"
-content_file = "input/pages/contact/head.html"
+content_file = "input/pages/thankyou/head.html"
 
 [[main.block]]
 format = "html"
@@ -21,12 +21,8 @@ format = "html"
 content = "<main id=\"main-port\">"
 
 [[main.block]]
-format = "html"
-content_file = "input/pages/contact/contact-form.html"
-
-[[main.block]]
 format = "md"
-content_file = "input/pages/contact/contact.md"
+content_file = "input/pages/thankyou/thankyou.md"
 
 [[main.block]]
 format = "html"
