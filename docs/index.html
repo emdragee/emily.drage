@@ -237,15 +237,16 @@
 <h2>Contact Form</h2>
 <hr>
 
-<form action="https://formsubmit.co/emily.drage@outlook.com" method="POST">
-    <input type="hidden" name="_subject" value="New email!">
-    <input type="email" name="email" placeholder="Email address" required>
-    <input type="hidden" name="_next" value="https://emilydrage.com/thankyou">
-    <input type="text" name="name" placeholder="name" >
-    <input type="text" name="message" placeholder="Message" required>
+<form id="myForm">
+    <input type="email" name="email" placeholder="Your Email" required>
+    <input type="text" name="name" placeholder="Your Name" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <input type="hidden" name="_captcha" value="false">
+    <div class="g-recaptcha" data-sitekey="6Leop5UqAAAAAAlzJEuzfSEAe8Zidio-MAwwcgxj"></div>
     <button class="btn button-filled" type="submit">Send</button>
-</form>
-
+  </form>
+  <div id="response"></div>
+  
 <p>
     If you would like to contact me by email instead, you can reach me at 
     <a href="mailto:emily.drage@outlook.com">emily.drage@outlook.com</a>.
@@ -290,6 +291,8 @@
 		  </footer>
 
 		  <script src="/js/nav.js"></script>
+		  <script src="/js/form.js"></script>
+		  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 		</div>
 	</body>
 </html>
