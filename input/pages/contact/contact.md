@@ -1,3 +1,3 @@
-<h1>Contact</h1>
+If you would like to contact me by email instead. You can reach me at [emily.drage@outlook.com](mailto:emily.drage@outlook.com).
 
-You can find my at [me@example.com](mailto:me@example.com).
+</section>

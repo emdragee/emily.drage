@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="/styles/base/reset.css"/>
     <link rel="stylesheet" href="/styles/base/body.css"/>
     <!--Page Specific styles will load below-->
+<link rel="stylesheet" href="/styles/main-port.css"/>
     <title>Contact</title>
     <meta property="og:title" content="Contact"/>
     <meta name="description" content="Longer description that will appear on Google and the likes. " />
@@ -101,16 +102,29 @@
 
 
 
-<h1>Contact</h1>
-<p>You can find my at <a href="mailto:me@example.com">me@example.com</a>.</p>
+<nav id="breadcrumbs" aria-label="Breadcrumbs"></nav>
+<main id="main-port">
+<section id="contact" class="content">
+<h2>Contact Form</h2>
+<hr>
 
-<form action="https://damp-union-b1d6.emdragee.workers.dev/" method="post">
-    <label for="fullName">Full Name</label>
-    <input name="fullName" type="text" required>
-    <label for="email">Email</label>
-    <input name="email" type="email" required>
-    <button type="submit">Send</button>
+<form action="https://formsubmit.co/emily.drage@outlook.com" method="POST">
+    <input type="hidden" name="_subject" value="New email!">
+    <input type="email" name="email" placeholder="Email address" required>
+    <input type="hidden" name="_next" value="https://emilydrage.com/thankyou">
+    <input type="text" name="name" placeholder="name" >
+    <input type="text" name="message" placeholder="Message" required>
+    <button class="btn button-filled" type="submit">Send</button>
 </form>
+
+<p>
+    If you would like to contact me by email instead, you can reach me at 
+    <a href="mailto:emily.drage@outlook.com">emily.drage@outlook.com</a>.
+</p>
+
+<p>If you would like to contact me by email instead. You can reach me at <a href="mailto:emily.drage@outlook.com">emily.drage@outlook.com</a>.</p>
+</section>
+</main>
 
 
 		<footer class="footer-content">
@@ -151,3 +165,4 @@
 		</div>
 	</body>
 </html>
+<script src='/js/breadcrumbs.js'></script>

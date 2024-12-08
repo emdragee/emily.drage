@@ -1,9 +1,9 @@
-<section id="content-md">
+<section id="" class="content">
 
 
 ## Thankyou
 
-Thanks
+Thankyou for your message!!!
 
 
 </section>
