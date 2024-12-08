@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
 	
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -242,7 +242,7 @@
     <input type="text" name="name" placeholder="Your Name" required>
     <textarea name="message" placeholder="Your Message" required></textarea>
     <input type="hidden" name="_captcha" value="false">
-    <div class="g-recaptcha" data-sitekey="6Leop5UqAAAAAAlzJEuzfSEAe8Zidio-MAwwcgxj"></div>
+    <div class="cf-turnstile" data-sitekey="0x4AAAAAAA1uwkUpgKCn9RuT"></div>
     <button class="btn button-filled" type="submit">Send</button>
   </form>
   <div id="response"></div>
@@ -292,7 +292,6 @@
 
 		  <script src="/js/nav.js"></script>
 		  <script src="/js/form.js"></script>
-		  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 		</div>
 	</body>
 </html>
