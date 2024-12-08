@@ -242,7 +242,12 @@
     <input type="text" name="name" placeholder="Your Name" required>
     <textarea name="message" placeholder="Your Message" required></textarea>
     <input type="hidden" name="_captcha" value="false">
-    <div class="cf-turnstile" data-sitekey="0x4AAAAAAA1uwkUpgKCn9RuT"></div>
+    <div style="display: block; flex-flow: row;"
+        class="cf-turnstile" 
+        data-sitekey="0x4AAAAAAA1uwkUpgKCn9RuT"
+        data-size="flexible"
+        >
+    </div>
     <button class="btn button-filled" type="submit">Send</button>
   </form>
   <div id="response"></div>
