@@ -1,13 +1,9 @@
-<form method="POST" action="/api/submit">
-    <label for="name">Full Name</label>
-    <input id="name" type="text" name="name" required />
-  
-    <label for="email">Email Address</label>
-    <input id="email" type="email" name="email" required />
-  
-    <label for="message">Message</label>
-    <textarea id="message" name="message" required></textarea>
-  
-    <button type="submit">Submit</button>
-  </form>
-  
+<form action="https://formsubmit.co/emily.drage@outlook.com" method="POST">
+    <input type="hidden" name="_subject" value="New email!">
+    <input type="email" name="email" placeholder="Email address" required>
+    <input type="hidden" name="_next" value="https://emilydrage.com/thankyou.html">
+    <input type="text" name="name" placeholder="name" >
+    <input type="text" name="message" placeholder="Message" required>
+
+    <button type="submit">Send</button>
+</form>
