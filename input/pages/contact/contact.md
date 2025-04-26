@@ -1,3 +1,10 @@
-If you would like to contact me by email instead. You can reach me at [emily.drage@outlook.com](mailto:emily.drage@outlook.com).
+<section id="contact" class="content">
+
+## Contact
+---
+
+LinkedIn: [Emily Drage](https://www.linkedin.com/in/emily-drage-55b41321b/).
+
+Email: [emily.drage@outlook.com](mailto:emily.drage@outlook.com).
 
 </section>

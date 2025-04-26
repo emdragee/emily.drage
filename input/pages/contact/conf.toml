@@ -21,10 +21,6 @@ format = "html"
 content = "<main id=\"main-port\">"
 
 [[main.block]]
-format = "html"
-content_file = "input/pages/contact/contact-form.html"
-
-[[main.block]]
 format = "md"
 content_file = "input/pages/contact/contact.md"
 

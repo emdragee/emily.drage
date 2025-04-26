@@ -85,8 +85,8 @@ format = "md"
 content_file = "input/pages/index/cv.md"
 
 [[main.block]]
-format = "html"
-content_file = "input/pages/contact/contact-form.html"
+format = "md"
+content_file = "input/pages/contact/contact.md"
 
 [[main.block]]
 format = "html"
