@@ -22,6 +22,7 @@ A website created around a personal interest topic. This project utilized semant
 
 ### Emolyy.Art Website
 
+This website was made purely as a tafe project and is currently no longer being hosted. I will eventually create a new art portfolio site in the furture.
 Link to website: [emolyy.art](https://emolyy.art/)
 
 ### Using modern image file formats

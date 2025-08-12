@@ -14,7 +14,7 @@
 <section id="" class="content">
 
 
-## Gorges Garden Center
+## George's Garden Center
 
 ---
 
