@@ -5,7 +5,7 @@
 </div>
 
 
-##### Gorges Garden - Bootstrap
+##### George's Garden - Bootstrap
 
 I designed and developed a Bootstrap website for a fictitious client, George's Garden Center using bootsrap.
 
